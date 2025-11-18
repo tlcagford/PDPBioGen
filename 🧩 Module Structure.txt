@@ -1,0 +1,27 @@
+src/pdpbiogen/
+├── core/                          # PDPBioGen Parallel Engine
+│   ├── parallel_engine.py         # Multi-core processing
+│   ├── distributed_simulator.py   # Cluster computing
+│   └── optimization.py           # Evolutionary algorithms
+├── domains/                       # Biological Domain Integration
+│   ├── neural/
+│   │   ├── signal_processor.py    # EEG/fMRI/MEG analysis
+│   │   └── state_classifier.py    # Brain state detection
+│   ├── genomic_proteomic/
+│   │   ├── expression_mapper.py   # Gene → protein mapping
+│   │   └── pathway_analyzer.py    # Biological pathways
+│   └── metabolic/
+│       ├── flux_analyzer.py       # Metabolic flux
+│       └── biomarker_tracker.py   # Metabolic markers
+├── translation/                   # Brain-to-Biology Translation
+│   ├── signal_translator.py       # Neural → biological
+│   ├── instruction_generator.py   # Healing commands
+│   └── bci_interface.py          # Real-time BCI
+├── healing/                       # Tissue Regeneration
+│   ├── tissue_simulator.py        # 3D healing simulation
+│   ├── cell_agents.py            # Multi-cell coordination
+│   └── growth_optimizer.py       # Factor optimization
+└── verification/                  # Biological Validation
+    ├── biological_critic.py       # Plausibility checks
+    ├── constraint_solver.py       # Biological constraints
+    └── quality_metrics.py         # Healing quality

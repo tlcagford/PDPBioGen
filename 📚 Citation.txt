@@ -1,0 +1,6 @@
+@software{pdpbiogen2024,
+  title = {PDPBioGen: Parallel Distributed Processing for Multi-Scale Biological Integration},
+  author = {Cagford, TL},
+  year = {2024},
+  url = {https://github.com/tlcagford/PDPBioGen}
+}
