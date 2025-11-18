@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  neuro-symmetry-mapper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    ports:
+      - "8050:8050"  # For Dash visualization
+    environment:
+      - PYTHONPATH=/app/src
+      - DATA_PATH=/app/data
+    command: ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+
+  nsm-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONPATH=/app/src
+    command: ["uvicorn", "neuro_symmetry_mapper.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
