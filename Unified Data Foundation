@@ -1,0 +1,13 @@
+neuro-symmetry-mapper/
+├── data/
+│   ├── unified_ontology/           # Cross-domain mapping definitions
+│   ├── neural/                    # EEG, fMRI, MEG, DTI
+│   ├── genomic_proteomic/         # GTEx, Protein Atlas, ENCODE
+│   └── metabolic/                 # Metabolomics, clinical biomarkers
+├── core/                          # Your adapted frameworks
+├── domains/                       # Three parallel mapping engines
+│   ├── neural/
+│   ├── genomic_proteomic/ 
+│   └── metabolic/
+├── integration/                   # Cross-domain unification
+└── validation/                    # Multi-domain validation
