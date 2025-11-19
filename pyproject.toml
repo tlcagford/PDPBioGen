@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdpbiogen"
+dynamic = ["version"]
+description = "Programmatic Diagram Pathway Biologist Generator"
+authors = [
+    {name = "tlcagford", email = "YOUR_EMAIL@example.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "pyyaml>=5.1",
+    "graphviz>=0.14"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov",
+    "black",
+    "flake8",
+    "mypy",
+    "pre-commit"
+]
+
+[project.scripts]
+pdpbiogen = "pdpbiogen.cli:main"
+
+[tool.setuptools_scm]
