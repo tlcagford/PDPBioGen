@@ -1,0 +1,15 @@
+class PDPBioGenError(Exception):
+    """Base exception for PDPBioGen errors."""
+    pass
+
+class ConfigurationError(PDPBioGenError):
+    """Raised when YAML configuration is invalid."""
+    pass
+
+class GraphvizError(PDPBioGenError):
+    """Raised when Graphviz operations fail."""
+    pass
+
+class ValidationError(PDPBioGenError):
+    """Raised when pathway data validation fails."""
+    pass
