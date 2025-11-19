@@ -1,4 +1,3 @@
-# Current structure has issues
 pdpbiogen/
 ├── __init__.py
 ├── pdpbiogen.py
@@ -11,3 +10,5 @@ tests/
 ├── test_validator.py
 ├── test_cli.py
 # Missing tests/__init__.py
+# tests/__init__.py
+# Test package initialization
