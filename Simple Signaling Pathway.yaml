@@ -1,0 +1,17 @@
+molecules:
+  Ligand:
+    type: input
+    color: lightblue
+  Receptor:
+    color: lightgreen
+  Response:
+    type: output
+    color: lightcoral
+
+interactions:
+  - from: Ligand
+    to: Receptor
+    label: Binds
+  - from: Receptor
+    to: Response
+    label: Activates
