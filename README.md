@@ -22,6 +22,25 @@ PDPBioGen is a cutting-edge computational framework that bridges **brain signals
 ## 🎯 Core Capabilities
 
 ### 🧬 Multi-Scale Biological Integration
+
+# PDPBioGen — Parallel Distributed Processing BioGen
+
+PDPBioGen is a modular, multi-domain research framework for integrating neural, genomic, and metabolic data into a combined analysis and agent-driven optimization pipeline.
+
+This repository contains:
+- a clean Python package (`pdpbiogen/`) with domain mappers, an Integrator, and validation utilities;
+- sample synthetic datasets (`data/sample/`);
+- unit & integration tests (`tests/`) using `pytest`;
+- a runnable example in `examples/cross_domain_run.py`.
+
+## Quick start
+
+1. Create virtual env and install
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
 ```python
 # Simultaneous analysis across all biological domains
 integrator = CrossDomainIntegrator()
@@ -79,19 +98,4 @@ Independent Researcher / Astrophysics & Quantum Systems
 
 A verified multi-agent framework for multi-scale human biological integration, adapting AI collaboration paradigms to biological systems.
 
-## 🚀 Quick Start
 
-```bash
-# Install package
-pip install neuro-symmetry-mapper
-
-# OR install from source
-git clone https://github.com/tlcagford/neuro-symmetry-mapper
-cd neuro-symmetry-mapper
-pip install -e .
-
-# Download sample data
-nsm-download --data-dir ./example_data
-
-# Run complete analysis
-python examples/quick_start.py
