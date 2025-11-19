@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 import pathlib
-
+pip install -e .
+# or
+export PYTHONPATH=$PWD:$PYTHONPATH
+pytest -q
 here = pathlib.Path(__file__).parent.resolve()
 
 # Get long description from README
