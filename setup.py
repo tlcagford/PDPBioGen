@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tlcagford/PDPBioGen",
     author="tlcagford",
-    author_email="YOUR_EMAIL@example.com",  # Update this
+    author_email="YOUR_EMAIL@example.com",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
@@ -26,7 +26,6 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
     ],
     keywords="bioinformatics, biology, pathway, visualization, graphviz",
     packages=find_packages(),
