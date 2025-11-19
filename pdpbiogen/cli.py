@@ -4,9 +4,11 @@
 import sys
 import argparse
 import logging
+import yaml
+import graphviz
+import os
 
-from .pdpbiogen import load_configuration, create_diagram, render_diagram
-from .exceptions import PDPBioGenError, ConfigurationError, GraphvizError, ValidationError
+# Import after basic imports to avoid circular dependencies
 from .logger import setup_logger
 
 def create_parser():
@@ -54,6 +56,30 @@ Examples:
     
     return parser
 
+def load_configuration(input_file):
+    """Load YAML configuration with error handling."""
+    try:
+        with open(input_file, 'r') as f:
+            data = yaml.safe_load(f)
+        
+        if data is None:
+            raise ValueError(f"YAML file '{input_file}' is empty or invalid")
+        
+        return data
+        
+    except yaml.YAMLError as e:
+        raise ValueError(f"Invalid YAML in {input_file}: {e}")
+    except FileNotFoundError:
+        raise ValueError(f"Input file not found: {input_file}")
+    except PermissionError:
+        raise ValueError(f"Permission denied reading: {input_file}")
+
+def create_diagram(data):
+    """Create diagram from configuration data."""
+    # Import here to avoid circular imports
+    from .pdpbiogen import create_diagram as _create_diagram
+    return _create_diagram(data)
+
 def main():
     """Main CLI entry point."""
     parser = create_parser()
@@ -78,38 +104,33 @@ def main():
         logger.info(f"Starting PDPBioGen processing")
         logger.debug(f"Input: {args.input_yaml}, Output: {args.output_basename}, Formats: {formats}")
         
-        # Load configuration
+        # Load configuration using local function
         data = load_configuration(args.input_yaml)
         
-        # Create diagram
+        # Create diagram using the main module
         dot = create_diagram(data)
         
         # Render outputs
-        render_diagram(dot, args.output_basename, formats)
+        output_dir = os.path.dirname(args.output_basename) or '.'
+        if output_dir and not os.path.exists(output_dir):
+            os.makedirs(output_dir, exist_ok=True)
+        
+        for format in formats:
+            output_path = dot.render(
+                filename=args.output_basename,
+                format=format,
+                cleanup=True
+            )
+            logger.info(f"Generated {format.upper()} output: {output_path}")
         
         logger.info("PDPBioGen completed successfully")
         return 0
         
-    except ConfigurationError as e:
-        logger.error(f"Configuration error: {e}")
-        return 1
-    except ValidationError as e:
-        logger.error(f"Validation error: {e}")
-        return 1
-    except GraphvizError as e:
-        logger.error(f"Graphviz error: {e}")
-        return 1
-    except PDPBioGenError as e:
-        logger.error(f"PDPBioGen error: {e}")
-        return 1
-    except KeyboardInterrupt:
-        logger.info("Processing interrupted by user")
-        return 130
     except Exception as e:
-        logger.error(f"Unexpected error: {e}")
+        logger.error(f"Error: {e}")
         if args.verbose:
             logger.exception("Detailed traceback:")
-        return 2
+        return 1
 
 if __name__ == '__main__':
     sys.exit(main())
