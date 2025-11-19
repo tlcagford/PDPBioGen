@@ -65,6 +65,13 @@ pip install -e .
 nsm-download --data-dir ./example_data
 
 
+```markdown
+## Installation
+
+### From PyPI (Recommended)
+```bash
+pip install pdpbiogen
+
 
 ---
 
