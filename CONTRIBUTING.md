@@ -1,25 +1,30 @@
+# Contributing to PDPBioGen
 
-## 🎯 Complete Deployment Package
+## Development Setup
 
-### To create the downloadable package:
+1. Fork the repository
+2. Clone your fork: `git clone https://github.com/your-username/PDPBioGen`
+3. Install development dependencies: `pip install -e .[dev]`
+4. Install pre-commit hooks: `pre-commit install`
 
-```bash
-# 1. Clone and setup
-git clone https://github.com/tlcagford/neuro-symmetry-mapper
-cd neuro-symmetry-mapper
+## Code Style
 
-# 2. Create virtual environment
-python -m venv nsm_env
-source nsm_env/bin/activate  # or `nsm_env\Scripts\activate` on Windows
+- Use Black for code formatting
+- Follow PEP 8 guidelines
+- Type hints are encouraged for new code
+- Write docstrings for public functions
 
-# 3. Install package
-pip install -e .
+## Testing
 
-# 4. Download test data
-nsm-download --domains neural  # Start with neural data for testing
+- Add tests for new features
+- Ensure all tests pass: `pytest`
+- Maintain or improve code coverage
 
-# 5. Run tests
-python -m pytest tests/ -v
+## Pull Request Process
 
-# 6. Try examples
-jupyter lab examples/quick_start.ipynb
+1. Create a feature branch
+2. Make your changes
+3. Add or update tests
+4. Update documentation
+5. Ensure CI passes
+6. Submit PR with clear description
