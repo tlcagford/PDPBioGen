@@ -1,0 +1,7 @@
+(Keep this minimal. Add domain-specific dependencies as you expand: numpy, pandas, torch, scikit-learn, etc.)
+
+### `pyproject.toml` (minimal)
+```toml
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
