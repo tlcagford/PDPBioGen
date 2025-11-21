@@ -1,0 +1,13 @@
+BIOCORP CONTRIBUTOR LICENSE AGREEMENT
+
+You hereby grant to Biocorp, Inc. and to recipients of software distributed by Biocorp...
+a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license...
+to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions...
+under both the Open Source License (OSL) and any other proprietary licenses used by Biocorp.
+
+You represent that...
+- You are legally entitled to grant the above license.
+- Each of Your Contributions is Your original creation.
+- You are not aware of any third-party claims regarding the IP rights in Your Contributions.
+
+Tony E. Ford as sole owner of Biocorp
