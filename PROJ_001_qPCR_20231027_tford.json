@@ -1,0 +1,148 @@
+{
+  "bais_version": "1.0",
+  "file_creation_date": "2023-10-27T14:30:00Z",
+
+  "project_metadata": {
+    "project_id": "PROJ_001",
+    "project_name": "Effect of Compound X on Inflammatory Markers in vitro",
+    "principal_investigator": "Dr. Jane Smith",
+    "researcher": "John Doe",
+    "institution": "BioInnovation Labs",
+    "funding_source": "Internal R&D"
+  },
+
+  "experimental_design": {
+    "hypothesis": "Compound X will dose-dependently reduce the mRNA expression of IL-6 in LPS-stimulated THP-1 macrophages.",
+    "assay_type": "Quantitative Polymerase Chain Reaction (qPCR)",
+    "cell_line": "THP-1 (human monocytic leukemia)",
+    "treatment_groups": [
+      {
+        "group_id": "G1",
+        "description": "Untreated Control",
+        "biological_replicates": 3
+      },
+      {
+        "group_id": "G2",
+        "description": "LPS (100 ng/mL) only",
+        "biological_replicates": 3
+      },
+      {
+        "group_id": "G3",
+        "description": "LPS (100 ng/mL) + Compound X (1 uM)",
+        "biological_replicates": 3
+      },
+      {
+        "group_id": "G4",
+        "description": "LPS (100 ng/mL) + Compound X (10 uM)",
+        "biological_replicates": 3
+      }
+    ],
+    "target_genes": [
+      {
+        "gene_symbol": "IL6",
+        "gene_name": "Interleukin 6",
+        "assay_id": "Hs00174131_m1",
+        "type": "Gene of Interest"
+      },
+      {
+        "gene_symbol": "GAPDH",
+        "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+        "assay_id": "Hs99999905_m1",
+        "type": "Endogenous Control"
+      }
+    ]
+  },
+
+  "lab_protocol": {
+    "protocol_name": "THP-1 differentiation and stimulation",
+    "steps": [
+      "Seed THP-1 cells at 500,000 cells/mL in 12-well plates.",
+      "Differentiate with 100 nM PMA for 48 hours.",
+      "Replace medium with fresh, PMA-free medium and rest for 24 hours.",
+      "Pre-treat with Compound X (DMSO vehicle) for 1 hour.",
+      "Stimulate with LPS (100 ng/mL) for 6 hours.",
+      "Wash with PBS and lyse for RNA extraction."
+    ],
+    "instrumentation": {
+      "rna_extraction_kit": "Qiagen RNeasy Mini Kit",
+      "cdna_synthesis_kit": "High-Capacity cDNA Reverse Transcription Kit",
+      "qpc_machine": "Applied Biosystems QuantStudio 6 Flex",
+      "qpc_reaction_kit": "TaqMan Fast Advanced Master Mix"
+    }
+  },
+
+  "raw_data": {
+    "data_file_reference": "//server/data/PROJ_001/raw_qPCR_data.xlsx",
+    "quantification_cycle (Cq)_data": [
+      {
+        "sample_id": "S1_G1_Rep1",
+        "group_id": "G1",
+        "target": "IL6",
+        "cqs": [ 32.45, 32.51 ],
+        "mean_cq": 32.48,
+        "notes": "No template control (NTC) for IL6 was undetermined."
+      },
+      {
+        "sample_id": "S1_G1_Rep1",
+        "group_id": "G1",
+        "target": "GAPDH",
+        "cqs": [ 19.21, 19.18 ],
+        "mean_cq": 19.195
+      },
+      {
+        "sample_id": "S2_G2_Rep1",
+        "group_id": "G2",
+        "target": "IL6",
+        "cqs": [ 22.15, 22.09 ],
+        "mean_cq": 22.12
+      }
+      // ... more data entries for all samples and targets
+    ]
+  },
+
+  "analysis_parameters": {
+    "analysis_method": "ΔΔCq",
+    "reference_gene": "GAPDH",
+    "calibrator_group": "G2 (LPS only)",
+    "quality_control": {
+      "cq_threshold": 35,
+      "standard_curve_r_squared": 0.998,
+      "pcr_efficiency": 99.5
+    }
+  },
+
+  "processed_results": {
+    "fold_change_data": [
+      {
+        "group_id": "G1",
+        "target": "IL6",
+        "mean_fold_change": 0.05,
+        "standard_deviation": 0.01,
+        "p_value": 0.001
+      },
+      {
+        "group_id": "G2",
+        "target": "IL6",
+        "mean_fold_change": 1.00,
+        "standard_deviation": 0.08,
+        "p_value": "N/A (calibrator)"
+      },
+      {
+        "group_id": "G3",
+        "target": "IL6",
+        "mean_fold_change": 0.45,
+        "standard_deviation": 0.05,
+        "p_value": 0.01
+      },
+      {
+        "group_id": "G4",
+        "target": "IL6",
+        "mean_fold_change": 0.15,
+        "standard_deviation": 0.03,
+        "p_value": 0.002
+      }
+    ]
+  },
+
+  "conclusion": "Compound X significantly and dose-dependently reduced LPS-induced IL-6 mRNA expression, confirming our hypothesis."
+}
