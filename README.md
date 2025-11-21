@@ -1,9 +1,17 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
 )](LICENSE)
-# 🧠 PDPBioGen × Neuro-Symmetry Mapper
+# 🧠 PDPBioGen: A Multi-Scale Computational Framework for Brain–Biology Integration and Adaptive System Modeling
 
-**Parallel Distributed Processing for Multi-Scale Biological Integration and Brain-Guided Healing**
+PDPBioGen is an advanced computational architecture that unifies neural signals, biological state modeling, and adaptive optimization using parallel distributed processing and multi-agent AI collaboration.
+Its goal is to model how high-level neural states interact with biological processes and to simulate or optimize system-wide dynamics.
+
+Why PDPBioGen is Different
+Traditional Computational Biology	PDPBioGen Approach
+Single-domain processing (e.g., only cellular or only neural)	Multi-scale integration: neural → molecular → cellular → organ level
+Sequential computation pipelines	True parallel distributed processing with multi-agent task division
+Static or fixed-parameter models	Dynamic, feedback-driven models that update in real-time
+Isolated biological subsystems	Cross-domain verification and cooperative modeling agents
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![CI/CD](https://github.com/tlcagford/PDPBioGen/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tlcagford/PDPBioGen/actions)
