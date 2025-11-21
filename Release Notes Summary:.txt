@@ -1,0 +1,16 @@
+PDPBioGen v1.0.0 - Initial Production Release
+
+✨ FEATURES:
+- Biological sequence, expression, and network generation
+- Parameter-driven experimental design simulation  
+- Multiple export formats including BAIS compliance
+- Comprehensive biological constraint system
+
+✅ VALIDATED:
+- Biological accuracy across multiple data types
+- Performance scalability to large datasets
+- Integration with lab testing frameworks
+- Production-ready code quality
+
+🚀 GET STARTED:
+pip install pdpbiogen
