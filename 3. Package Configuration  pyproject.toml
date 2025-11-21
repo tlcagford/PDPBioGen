@@ -1,0 +1,15 @@
+[project]
+name = "pdpbiogen"
+version = "1.0.0"
+
+# Dual license declaration
+license = {file = "LICENSE-OSL.md"}
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "License :: Other/Proprietary License",
+]
+
+[project.optional-dependencies]
+commercial = [
+    "pdpbiogen-commercial>=1.0.0",  # Separate commercial package
+]
