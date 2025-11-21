@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style>body { margin: 0; }</style><style>
+.banner {
+  width: 1200px;
+  height: 600px;
+  background: linear-gradient(135deg, #0a0a2a 0%, #1a1a4a 100%);
+  position: relative;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+.quantum-dna {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 300px;
+}
+
+.dna-strand {
+  position: relative;
+  width: 10px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.dna-node {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #00f0ff;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.dna-connection {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #00f0ff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dashboard {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.status-indicator {
+  color: #00ff88;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.wave-graph {
+  width: 100%;
+  height: 80px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 5px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+</style>
+</head>
+<body>
+<div class="banner">
+  <div class="title">
+    <div class="main-title">QUILDS</div>
+    <div class="subtitle">Quantum Integrated Living Detection System</div>
+  </div>
+  
+  <div class="quantum-dna">
+    <!-- DNA nodes would be generated with JavaScript -->
+  </div>
+  
+  <div class="dashboard">
+    <div class="status-indicator">● LIFE SIGNS: DETECTED</div>
+    <div class="wave-graph"></div>
+  </div>
+</div>
+
+<script>
+// Generate DNA structure
+function createDNA() {
+  const dnaContainer = document.querySelector('.quantum-dna .dna-strand');
+  const nodeCount = 12;
+  
+  for (let i = 0; i < nodeCount; i++) {
+    // Create node
+    const node = document.createElement('div');
+    node.className = 'dna-node';
+    node.style.top = `${(i / (nodeCount - 1)) * 180}px`;
+    node.style.animationDelay = `${i * 0.2}s`;
+    dnaContainer.appendChild(node);
+    
+    // Create connection (except for last node)
+    if (i < nodeCount - 1) {
+      const connection = document.createElement('div');
+      connection.className = 'dna-connection';
+      connection.style.top = `${(i / (nodeCount - 1)) * 180 + 20}px`;
+      connection.style.height = `${180 / (nodeCount - 1) - 20}px`;
+      dnaContainer.appendChild(connection);
+    }
+  }
+}
+
+// Create wave graph
+function createWaveGraph() {
+  const graph = document.querySelector('.wave-graph');
+  const canvas = document.createElement('canvas');
+  canvas.width = 400;
+  canvas.height = 80;
+  graph.appendChild(canvas);
+  
+  const ctx = canvas.getContext('2d');
+  ctx.strokeStyle = '#00ff88';
+  ctx.lineWidth = 2;
+  
+  ctx.beginPath();
+  for (let x = 0; x < canvas.width; x++) {
+    const y = 40 + Math.sin(x * 0.05 + Date.now() * 0.002) * 20;
+    if (x === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+}
+
+createDNA();
+createWaveGraph();
+</script>
+
+</body></html>
