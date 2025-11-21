@@ -64,7 +64,29 @@ pip install -e .
 # Download sample data
 nsm-download --data-dir ./example_data
 
+# PDPBioGen - Profile Description Page Biography Generator
 
+A professional tool for generating academic and corporate biographies using AI.
+
+## Features
+
+- 🎓 **Academic Profiles** - Formal biographies for researchers and academics
+- 💼 **Corporate Bios** - Professional profiles for business professionals  
+- ⚡ **Multiple Styles** - Academic, corporate, and short formats
+- 📁 **Flexible Input** - Command line arguments or JSON files
+- 🔒 **Secure** - API keys via environment variables
+
+## Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Set your OpenAI API key
+export OPENAI_API_KEY="your-key-here"
+
+# Generate your first biography
+python -m pdp_biogen.cli --name "Dr. Jane Smith" --role "Professor" --institution "Stanford University" --expertise "machine learning"
 ```markdown
 ## Installation
 
