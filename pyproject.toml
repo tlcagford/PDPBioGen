@@ -1,32 +1,25 @@
-pyproject.toml
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-
 [project]
-name = "pdp-biogen"
-version = "0.1.1"
-description = "PDP BioGen — Next Generation Health Care with Real-time BCI healing 50ms latency — First of its kind"
+name = "pdpbiogen"
+version = "0.0.1"
+description = "Parallel Distributed Processing for Bio-Genomic Signal Integration"
 readme = "README.md"
-requires-python = ">=3.10"
-license = {file = "LICENSE"}
-authors = [{name = "tlcagford"}]
-keywords = ["bci", "bioinformatics", "multi-agent", "parallel-distributed-processing", "real-time-healing"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",  # or your actual license
-    "Operating System :: OS Independent",
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+
+authors = [
+    { name="T. Ford", email="tony.e.ford@protonmail.com" }
 ]
+
+keywords = ["PDP", "bio", "neuro", "healing", "signal-processing"]
 
 dependencies = [
-    "openai>=1.0",
-    "torch",
     "numpy",
+    "pandas",
     "scipy",
-    # add the rest from your requirements.txt
+    "torch",
+    "scikit-learn"
 ]
 
-[project.scripts]
-pdp-biogen = "pdp_biogen:main"   # change to run via `pdp-biogen` after install
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
