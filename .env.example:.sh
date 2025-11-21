@@ -1,0 +1,5 @@
+# OpenAI Configuration
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-3.5-turbo
+MAX_TOKENS=500
+TEMPERATURE=0.7
