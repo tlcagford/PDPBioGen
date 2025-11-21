@@ -1,0 +1,5 @@
+# PRIVATE REPOSITORY READY
+[project]
+name = "pdpbiogen-commercial" 
+version = "1.0.0"
+license = {file = "LICENSE-COMMERCIAL.md"}
