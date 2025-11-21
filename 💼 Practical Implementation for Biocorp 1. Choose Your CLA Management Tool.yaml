@@ -1,0 +1,12 @@
+# .github/cla-bot.yml
+cla:
+  requireFor:
+    - pull_request
+  organizations:
+    - biocorp-employees  # Auto-approved
+  individuals:
+    - trusted-external-contributors
+  unsignedMessage: |
+    Thank you for your pull request!
+    **Biocorp requires all contributors to sign our Contributor License Agreement.**
+    Please review and sign at: https://biocorp.com/contributor-agreement
