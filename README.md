@@ -8,94 +8,17 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![CI/CD](https://github.com/tlcagford/PDPBioGen/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tlcagford/PDPBioGen/actions)
 
-PDPBioGen is a cutting-edge computational framework that bridges **brain signals**, **biological processes**, and **healing optimization** through parallel distributed processing and multi-agent AI collaboration.
+PDPBioGen: A Multi-Scale Computational Framework for Brain–Biology Integration and Adaptive System Modeling
 
-### ✨ What Makes Us Different
+PDPBioGen is an advanced computational architecture that unifies neural signals, biological state modeling, and adaptive optimization using parallel distributed processing and multi-agent AI collaboration.
+Its goal is to model how high-level neural states interact with biological processes and to simulate or optimize system-wide dynamics.
 
-| Traditional Approach | PDPBioGen Approach |
-|---------------------|-------------------|
-| ❌ Single-domain analysis | ✅ **Multi-scale integration** (molecular → cellular → organ) |
-| ❌ Sequential processing | ✅ **Parallel distributed computing** across all domains |
-| ❌ Static models | ✅ **Dynamic, brain-guided optimization** |
-| ❌ Isolated systems | ✅ **Cross-domain verification & collaboration** |
-
-## 🎯 Core Capabilities
-
-### 🧬 Multi-Scale Biological Integration
-
-# PDPBioGen — Parallel Distributed Processing BioGen
-
-PDPBioGen is a modular, multi-domain research framework for integrating neural, genomic, and metabolic data into a combined analysis and agent-driven optimization pipeline.
-
-This repository contains:
-- a clean Python package (`pdpbiogen/`) with domain mappers, an Integrator, and validation utilities;
-- sample synthetic datasets (`data/sample/`);
-- unit & integration tests (`tests/`) using `pytest`;
-- a runnable example in `examples/cross_domain_run.py`.
-
-## Quick start
-
-1. Create virtual env and install
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-```python
-# Simultaneous analysis across all biological domains
-integrator = CrossDomainIntegrator()
-human_map = integrator.create_human_map({
-    'neural': brain_activity_data,
-    'genomic': gene_expression_data, 
-    'metabolic': pathway_activity_data
-A verified multi-agent framework for multi-scale human biological integration to biological systems.
-
-## 🚀 Quick Start
-
-```bash
-# Install package
-pip install neuro-symmetry-mapper
-
-# OR install from source
-git clone https://github.com/tlcagford/neuro-symmetry-mapper
-cd neuro-symmetry-mapper
-pip install -e .
-
-# Download sample data
-nsm-download --data-dir ./example_data
-
-# PDPBioGen - Profile Description Page Biography Generator
-
-A professional tool for generating academic and corporate biographies using AI.
-
-## Features
-
-- 🎓 **Academic Profiles** - Formal biographies for researchers and academics
-- 💼 **Corporate Bios** - Professional profiles for business professionals  
-- ⚡ **Multiple Styles** - Academic, corporate, and short formats
-- 📁 **Flexible Input** - Command line arguments or JSON files
-- 🔒 **Secure** - API keys via environment variables
-
-## Quick Start
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Set your OpenAI API key
-export OPENAI_API_KEY="your-key-here"
-
-# Generate your first biography
-python -m pdp_biogen.cli --name "Dr. Jane Smith" --role "Professor" --institution "Stanford University" --expertise "machine learning"
-```markdown
-## Installation
-
-### From PyPI (Recommended)
-```bash
-pip install pdpbiogen
-
-
----
+Why PDPBioGen is Different
+Traditional Computational Biology	PDPBioGen Approach
+Single-domain processing (e.g., only cellular or only neural)	Multi-scale integration: neural → molecular → cellular → organ level
+Sequential computation pipelines	True parallel distributed processing with multi-agent task division
+Static or fixed-parameter models	Dynamic, feedback-driven models that update in real-time
+Isolated biological subsystems	Cross-domain verification and cooperative modeling agents
 
 ## 📝 Licensing
 This project uses a **Dual-License model**:
