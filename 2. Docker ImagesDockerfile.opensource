@@ -1,0 +1,12 @@
+# Dockerfile.opensource
+FROM python:3.9
+COPY . /app
+WORKDIR /app
+RUN pip install -e .
+CMD ["pdpbiogen", "--license", "opensource"]
+
+# Dockerfile.commercial  
+FROM python:3.9
+COPY commercial-license.lic /etc/pdpbiogen/
+RUN pip install pdpbiogen-commercial
+CMD ["pdpbiogen", "--license", "commercial"]
