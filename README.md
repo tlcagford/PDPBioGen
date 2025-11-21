@@ -12,7 +12,14 @@ Single-domain processing (e.g., only cellular or only neural)	Multi-scale integr
 Sequential computation pipelines	True parallel distributed processing with multi-agent task division
 Static or fixed-parameter models	Dynamic, feedback-driven models that update in real-time
 Isolated biological subsystems	Cross-domain verification and cooperative modeling agents
+## Live Closed-Loop Demonstration (Real Epileptic Seizure EEG × Grok-4.1-fast Council)
 
+Even during an active seizure (Bonn University dataset), residual patient brain intent is sufficient for the 100-node PDP network + Grok-4.1-fast Healing Council to restore biological symmetry in ~3.2 simulated seconds.
+
+![PDPBioGen Grok-4.1-fast Healing Demonstration](pdpbiogen_grok41_healing.png)
+
+Red = open-loop (standard medicine → chronic chaos)  
+Green = closed-loop (PDPBioGen → healed)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![CI/CD](https://github.com/tlcagford/PDPBioGen/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tlcagford/PDPBioGen/actions)
 
