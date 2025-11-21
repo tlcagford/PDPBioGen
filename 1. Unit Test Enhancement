@@ -1,0 +1,22 @@
+# Proposed additional tests
+def test_bais_compatibility():
+    """Test that generated data fits BAIS schema"""
+    generator = PDPBioGen()
+    test_experiment = create_default_experiment()
+    
+    generated_data = generator.run(test_experiment)
+    bais_data = generator.export_to_bais(generated_data)
+    
+    # Validate against BAIS schema
+    assert validate_bais_schema(bais_data)
+    assert "raw_data" in bais_data
+    assert "processed_results" in bais_data
+
+def test_lab_replication():
+    """Test ability to replicate known experimental results"""
+    # Use published dataset parameters
+    known_effect = load_published_results()
+    simulated_data = generator.replicate_study(known_effect)
+    
+    # Check if simulation captures real effects
+    assert statistical_similarity(known_effect, simulated_data) > 0.8
