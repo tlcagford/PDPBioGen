@@ -1,0 +1,123 @@
+2. Detailed Lab Test Setup & Protocol
+
+This protocol is designed to generate the data that would populate the BAIS file above.
+
+Experiment: Quantifying the effect of a novel compound (Compound X) on IL-6 gene expression using qPCR.
+A. Objective & Hypothesis
+
+    Objective: To measure the mRNA expression levels of the Interleukin-6 (IL-6) gene in THP-1-derived macrophages treated with LPS and varying doses of Compound X.
+
+    Hypothesis: Compound X will inhibit the LPS-induced expression of IL-6 in a dose-dependent manner.
+
+B. Materials & Equipment
+
+Cell Culture & Treatment:
+
+    THP-1 human monocyte cell line
+
+    RPMI-1640 culture medium + 10% FBS + 1% Pen/Strep
+
+    Phorbol 12-myristate 13-acetate (PMA) - for differentiation
+
+    Lipopolysaccharide (LPS) - from E. coli - for stimulation
+
+    Compound X (powder, dissolved in DMSO)
+
+    Dimethyl Sulfoxide (DMSO) - vehicle control
+
+    Tissue culture hood, CO2 incubator, centrifuge
+
+    12-well cell culture plates, pipettes, serological pipettes
+
+RNA & qPCR:
+
+    RNA extraction kit (e.g., Qiagen RNeasy Mini Kit)
+
+    DNase/RNase-free water, microcentrifuge tubes, pipette tips
+
+    Spectrophotometer/Nanodrop for RNA quantification
+
+    cDNA synthesis kit (e.g., High-Capacity cDNA Reverse Transcription Kit)
+
+    Thermal cycler
+
+    TaqMan Gene Expression Assays (IL-6, GAPDH)
+
+    TaqMan Fast Advanced Master Mix
+
+    qPCR instrument (e.g., Applied Biosystems QuantStudio)
+
+    qPCR plates or strips and seals
+
+C. Step-by-Step Procedure
+
+Day 1: Cell Seeding and Differentiation
+
+    Seed Cells: Count THP-1 cells and seed them in a 12-well plate at a density of 500,000 cells per well in 1 mL of complete growth medium.
+
+    Differentiate: Add PMA to each well to a final concentration of 100 nM. Gently swirl the plate to mix.
+
+    Incubate: Place the plate in a 37°C, 5% CO2 incubator for 48 hours. The cells will adhere and differentiate into macrophage-like cells.
+
+Day 3: Resting Phase
+4. Remove PMA: Carefully aspirate the medium from each well.
+5. Wash & Rest: Gently add 1 mL of fresh, warm, PMA-free medium to each well. Return the plate to the incubator for another 24 hours. This allows the cells to rest.
+
+Day 4: Compound Treatment and Stimulation
+6. Prepare Compounds: Dilute Compound X in DMSO and then in culture medium to create your working concentrations (e.g., 1 µM and 10 µM). Prepare a vehicle control (0.1% DMSO) and LPS solution (100 ng/mL).
+7. Pre-treatment: Aspirate the resting medium.
+* Group G1 (Control): Add 1 mL of fresh medium with vehicle.
+* Group G2 (LPS-only): Add 1 mL of fresh medium with vehicle.
+* Groups G3 & G4: Add 1 mL of medium containing 1 µM or 10 µM Compound X, respectively.
+8. Incubate: Incubate the plate for 1 hour.
+9. Stimulate: After 1 hour, add LPS directly to the wells for groups G2, G3, and G4 to a final concentration of 100 ng/mL. Do not add LPS to Group G1.
+10. Final Incubation: Incubate the plate for 6 hours (this is the optimal time for cytokine mRNA induction).
+
+Day 4: Cell Lysis and RNA Extraction
+11. Lyse Cells: Place the plate on ice. Aspirate the medium and wash each well once with 1 mL of cold PBS. Aspirate the PBS completely.
+12. Add Lysis Buffer: Add 350 µL of RLT buffer (from the RNA kit) directly to each well. Lyse the cells by pipetting up and down several times.
+13. RNA Extraction: Transfer the lysate to a labeled microcentrifuge tube and immediately proceed with the RNA extraction protocol according to the kit's instructions. This typically involves binding to a column, washing, and eluting in RNase-free water.
+14. Quantify RNA: Measure the concentration and purity (A260/A280 ratio ~2.0) of your RNA using a spectrophotometer.
+
+Day 4/5: cDNA Synthesis
+15. Normalize RNA: Dilute all RNA samples to the same concentration (e.g., 50 ng/µL) in RNase-free water.
+16. Set Up RT Reaction: In a PCR tube, combine:
+* 500 ng RNA (10 µL of 50 ng/µL solution)
+* 2 µL 10x RT Buffer
+* 0.8 µL dNTP Mix (25x)
+* 2 µL 10x RT Random Primers
+* 1 µL MultiScribe Reverse Transcriptase
+* 4.2 µL Nuclease-free H2O
+* Total Volume: 20 µL
+17. Run RT Program: Place tubes in a thermal cycler and run the program: 25°C for 10 min, 37°C for 120 min, 85°C for 5 min, hold at 4°C. The resulting product is your cDNA. Dilute 1:5 with water for qPCR.
+
+Day 5: qPCR Setup & Run
+18. Prepare Master Mix: For each reaction, calculate and combine:
+* 5.0 µL TaqMan Fast Advanced Master Mix (2x)
+* 0.5 µL TaqMan Gene Expression Assay (20x)
+* 3.5 µL Nuclease-free H2O
+* Total per reaction: 9 µL
+Prepare a master mix for all your samples, targets, and technical replicates, plus ~10% extra.
+19. Plate Setup: Aliquot 9 µL of the master mix into each well of a 96-well qPCR plate.
+20. Add cDNA: Add 1 µL of the diluted cDNA to each respective well.
+21. Seal and Centrifuge: Seal the plate with an optical adhesive cover and centrifuge briefly to collect the contents at the bottom.
+22. Run qPCR: Place the plate in the qPCR instrument and run the appropriate protocol (e.g., 95°C for 20 sec, followed by 40 cycles of 95°C for 1 sec and 60°C for 20 sec).
+D. Data Analysis & Population of BAIS File
+
+    Export Data: Export the Cq (Quantification Cycle) values from the qPCR instrument software.
+
+    Quality Control: Check that your control gene (GAPDH) has stable, low Cq values across all samples. Ensure the No Template Control (NTC) has no amplification (Cq = undetermined).
+
+    Calculate ΔΔCq:
+
+        Calculate the average Cq for technical replicates for each sample/target.
+
+        ΔCq (Sample) = Avg. Cq (IL-6, Sample) - Avg. Cq (GAPDH, Sample)
+
+        ΔΔCq = ΔCq (Sample) - ΔCq (Calibrator Sample; e.g., LPS-only group G2)
+
+        Fold Change = 2^(-ΔΔCq)
+
+    Statistical Analysis: Perform a t-test or ANOVA on the ΔCq or Fold Change values to determine statistical significance between groups.
+
+    Populate BAIS File: Use a script (e.g., in Python or R) or manually enter all the metadata, protocol details, raw Cq data, analysis parameters, and final fold-change results into the JSON structure defined in Part 1.
