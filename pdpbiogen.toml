@@ -1,0 +1,6 @@
+# PyPI METADATA CONFIRMED
+[project]
+name = "pdpbiogen"
+version = "1.0.0"
+description = "Parameter-Driven Pseudobiological Generator"
+license = {file = "LICENSE-OSL.md"}
