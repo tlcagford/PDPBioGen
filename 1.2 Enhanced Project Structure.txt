@@ -1,0 +1,18 @@
+PDPBioGen/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+├── .env.example
+├── pdp_biogen/
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── generator.py
+│   └── config.py
+├── examples/
+│   ├── input_academic.json
+│   ├── input_corporate.json
+│   └── sample_output.md
+└── tests/
+    ├── __init__.py
+    └── test_generator.py
