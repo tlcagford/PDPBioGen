@@ -1,13 +1,9 @@
 # PDPBioGen Documentation
 
-Programmatic Diagram Pathway Biologist Generator
+[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](https://github.com/your/repo/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-## Overview
-
-PDPBioGen is a Python tool that automates the creation of biological pathway diagrams from simple YAML configuration files.
-
-## Quick Start
-
-```bash
-pip install pdpbiogen
-pdpbiogen pathway.yaml output_diagram
+## Quick links
+- [Usage](./usage.md)
+- [Architecture](../architecture.md)
+- [Whitepaper](../release/WHITEPAPER.md)
