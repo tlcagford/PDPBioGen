@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdpbiogen"
+version = "0.0.1"
+description = "PDPBioGen: Multi-scale Bio-Neural Parallel Distributed Processing Framework"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name="T. Ford", email="tony.e.ford@protonmail.com" }
+]
+keywords = ["bioinformatics", "EEG", "parallel computing", "AI", "PDP", "multi-agent"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "mne",
+    "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/tlcagford/PDPBioGen"
+Repository = "https://github.com/tlcagford/PDPBioGen"
+Issues = "https://github.com/tlcagford/PDPBioGen/issues"
