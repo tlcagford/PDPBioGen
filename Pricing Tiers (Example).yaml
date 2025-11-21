@@ -1,0 +1,12 @@
+commercial_licenses:
+  startup:
+    price: "$999/year"
+    features: ["basic_commercial_use", "standard_support"]
+  
+  enterprise: 
+    price: "$4999/year"
+    features: ["unlimited_use", "premium_support", "custom_features"]
+  
+  academic_commercial:
+    price: "$499/year" 
+    features: ["spinout_companies", "technology_transfer"]
