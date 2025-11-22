@@ -1,6 +1,1 @@
-PDPBioGen/
-├── LICENSE-COMMERCIAL    # Commercial Use License
-├── LICENSE-OSL.md        # Open Source License (Copyleft)
-├── license_management.py # License enforcement
-└── docs/
-    └── LICENSING.md      # License explanation
+
