@@ -1,5 +1,15 @@
 # dpbiogen/quantum/endocrine_demo.py
 """
+
+For real heart/endocrine/respiratory data: Process sensor outputs (e.g., ECG via biosppy, hormone proxies via GSR) to compute deviations, save to CSV as agent_name,initial_state pairs, then pass as arg.
+
+See LAB_SETUP.md for building a physical lab system to feed live data into the module.
+
+No additional requirements beyond the main PDPBioGen project (pure Python + csv stdlib; optionally numpy/biosppy for real data processing upstream).
+
+Drop the quantum folder into the dpbiogen/ package and import as dpbiogen.quantum.
+
+Ready for integration with the Grok-4.1-fast Healing Council or real-time BCI loop.
 Runnable standalone demo — shows how residual brain intent + quantum-inspired entanglement
 heals a disrupted endocrine system (e.g., hormonal imbalances like thyroid dysfunction or stress response overload) in a single collapse step (∼50 ms equivalent).
 
