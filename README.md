@@ -16,7 +16,7 @@ Isolated biological subsystems	Cross-domain verification and cooperative modelin
 
 Even during an active seizure (Bonn University dataset), residual patient brain intent is sufficient for the 100-node PDP network + Grok-4.1-fast Healing Council to restore biological symmetry in ~3.2 simulated seconds.
 
-![PDPBioGen Grok-4.1-fast Healing Demonstration](pdpbiogen_grok41_healing.png)
+![PDPBioGen Grok-4.1-fast Healing Demonstration](http.github.com/tlcagford/pdpbiogen_grok41_healing.png)
 
 Red = open-loop (standard medicine → chronic chaos)  
 Green = closed-loop (PDPBioGen → healed)
@@ -30,7 +30,8 @@ Green = closed-loop (PDPBioGen → healed)
 Run the demos to see the full effect:
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![CI/CD](https://github.com/tlcagford/PDPBioGen/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tlcagford/PDPBioGen/actions)
-pdpbiogen_full_body_healing_demo.gif
+.(pdpbiogen_full_body_healing_demo.gif.).
+
 PDPBioGen: A Multi-Scale Computational Framework for Brain–Biology Integration and Adaptive System Modeling
 
 PDPBioGen is an advanced computational architecture that unifies neural signals, biological state modeling, and adaptive optimization using parallel distributed processing and multi-agent AI collaboration.
