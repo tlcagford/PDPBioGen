@@ -56,11 +56,12 @@ Badge:
 ```
 ![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
 ```
-## Setup
-1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set your OpenAI API key: `export OPENAI_API_KEY="your-key-here"`
-4. Run: `python pdp_biogen.py`
+### 🚀 Quick Start
+```bash
+git clone https://github.com/your-repo/quantum-ct-healing
+cd quantum-ct-healing
+pip install -r requirements.txt
+python examples/heart_healing_demo.py
 ---
 
 ## 🤝 Contributing
