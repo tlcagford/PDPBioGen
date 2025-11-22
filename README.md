@@ -20,6 +20,19 @@ Even during an active seizure (Bonn University dataset), residual patient brain 
 
 Red = open-loop (standard medicine → chronic chaos)  
 Green = closed-loop (PDPBioGen → healed)
+# dpbiogen/quantum/README.md (updated)
+## Quantum Module for PDPBioGen — Quantum-Entangled Symmetry Mapper
+
+
+### Files
+- mapper.py   → Core classes (Agent, Entangler, Mapper)
+- demo.py     → Standalone runnable example with synthetic seizure + mock BCI data
+- heart_demo.py → Similar demo but for heart/cardiovascular healing with synthetic arrhythmia data
+- __init__.py, requirements.txt, README.md
+
+... (quick usage unchanged)
+
+Run the demos to see the full effect:
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![CI/CD](https://github.com/tlcagford/PDPBioGen/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tlcagford/PDPBioGen/actions)
 
