@@ -14,9 +14,7 @@ Static or fixed-parameter models	Dynamic, feedback-driven models that update in 
 Isolated biological subsystems	Cross-domain verification and cooperative modeling agents
 ## Live Closed-Loop Demonstration (Real Epileptic Seizure EEG × Grok-4.1-fast Council)
 
-Even during an active seizure (Bonn University dataset), residual patient brain intent is sufficient for the 100-node PDP network + Grok-4.1-fast Healing Council to restore biological symmetry in ~3.2 simulated seconds.
-
-![PDPBioGen Grok-4.1-fast Healing Demonstration](http.github.com/tlcagford/pdpbiogen_grok41_healing.png)
+Even during an active seizure (Bonn University dataset), residual patient brain intent is sufficient for the 100-node PDP network + Grok-4.1-fast Healing Council to restore biological symmetry in ~3.2 simulated seconds
 
 Red = open-loop (standard medicine → chronic chaos)  
 Green = closed-loop (PDPBioGen → healed)
@@ -26,6 +24,8 @@ Green = closed-loop (PDPBioGen → healed)
 - heart_demo.py → Similar demo but for heart/cardiovascular healing with synthetic arrhythmia data
 - __init__.py, requirements.txt, README.md
 - pdpbiogen_full_body_healing_demo.gif
+- ![pdpbiogen_grok41_healing-2a0bf99a](https://github.com/user-attachments/assets/a51c5626-ee5c-494c-95ba-8d51f5b4c4c4)
+
 
 Run the demos to see the full effect:
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
