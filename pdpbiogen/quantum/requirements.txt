@@ -1,0 +1,5 @@
+qutip>=4.7.0  # Quantum ops
+biopython>=1.79  # Genomics
+scipy>=1.11.0  # Math/Symmetry
+numpy>=1.24.0  # Arrays
+# Optional: torch for advanced fusion; brainflow for OpenBCI
