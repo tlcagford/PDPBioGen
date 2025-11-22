@@ -1,0 +1,1 @@
+pytest tests/ --cov=quantum_healing --cov-report=html
