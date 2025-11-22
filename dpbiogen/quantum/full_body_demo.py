@@ -1,6 +1,6 @@
-# dpbiogen/quantum/full_body_demo.py  (new integrated demo)
+# dpbiogen/quantum/full_body_demo.py  (updated with endocrine and expanded respiratory)
 """
-Runnable standalone demo — integrates seizure (brain/neural) and heart (cardiovascular) subsystems
+Runnable standalone demo — integrates seizure (brain/neural), heart (cardiovascular), endocrine, respiratory, and other subsystems
 for full-body healing via quantum-inspired entanglement + residual brain intent.
 
 Uses synthetic data by default, but can load real heart data from a CSV (e.g., processed ECG samples).
@@ -31,9 +31,9 @@ if __name__ == "__main__":
         mapper.add_agent("Mitochondria-Net", 23.0),  # Cellular energy
         mapper.add_agent("Immune-Response", -19.0),  # Inflammation markers
         mapper.add_agent("Neurotrans-Balance", 16.0),  # Chemical signaling
-        mapper.add_agent("EEG-Alpha-Wave", 20.0),  # New: Frequency band deviation
-        mapper.add_agent("EEG-Theta-Wave", -15.0),  # New: Another band for realism
-        mapper.add_agent("Synaptic-Plasticity", 22.0),  # New: Learning/adaptation metric
+        mapper.add_agent("EEG-Alpha-Wave", 20.0),  # Frequency band deviation
+        mapper.add_agent("EEG-Theta-Wave", -15.0),  # Another band for realism
+        mapper.add_agent("Synaptic-Plasticity", 22.0),  # Learning/adaptation metric
     ]
 
     # Heart/cardiovascular subsystem agents (from heart_demo, with more added)
@@ -53,21 +53,43 @@ if __name__ == "__main__":
             mapper.add_agent("Atrial-Fibrillation-Index", 24.0),
             mapper.add_agent("Coronary-Flow-Reserve", -20.0),
             mapper.add_agent("Endothelial-Function", 17.0),
-            mapper.add_agent("QT-Interval-Variability", 21.0),  # New: ECG-specific metric
-            mapper.add_agent("Ventricular-Ejection-Fraction", -16.0),  # New: Heart efficiency
-            mapper.add_agent("Autonomic-Nervous-Balance", 18.0),  # New: Sympathetic/parasympathetic
+            mapper.add_agent("QT-Interval-Variability", 21.0),  # ECG-specific metric
+            mapper.add_agent("Ventricular-Ejection-Fraction", -16.0),  # Heart efficiency
+            mapper.add_agent("Autonomic-Nervous-Balance", 18.0),  # Sympathetic/parasympathetic
         ]
 
-    # Additional full-body subsystems (e.g., endocrine, muscular) for integration
+    # New: Endocrine subsystem agents (integrated from endocrine_demo)
+    endocrine_agents = [
+        mapper.add_agent("Thyroid-Hormone-Level", 20.0),
+        mapper.add_agent("Cortisol-Stress-Index", 18.0),
+        mapper.add_agent("Insulin-Glucose-Balance", -15.0),
+        mapper.add_agent("Estrogen-Progesterone-Ratio", 16.0),
+        mapper.add_agent("Testosterone-Level-Dev", -14.0),
+        mapper.add_agent("Growth-Hormone-Secretion", 19.0),
+        mapper.add_agent("Melatonin-Circadian-Rhythm", -17.0),
+        mapper.add_agent("Adrenaline-Response-Var", 21.0),
+    ]
+
+    # Expanded: Respiratory subsystem agents (building on existing)
+    respiratory_agents = [
+        mapper.add_agent("Respiratory-Rate-Dev", 20.0),  # Existing: Breathing rate variation
+        mapper.add_agent("Oxygen-Saturation-Level", -16.0),  # New: SpO2 deviation
+        mapper.add_agent("Lung-Capacity-Volume", 18.0),  # New: Spirometry-based
+        mapper.add_agent("CO2-Exhalation-Index", -14.0),  # New: Hypercapnia/hypocapnia
+        mapper.add_agent("Bronchial-Inflammation", 19.0),  # New: Asthma/COPD marker
+        mapper.add_agent("Ventilatory-Efficiency", -15.0),  # New: VE/VCO2 ratio
+        mapper.add_agent("Respiratory-Muscle-Strength", 17.0),  # New: Diaphragm function
+    ]
+
+    # Additional full-body subsystems (e.g., muscular, metabolic)
     other_agents = [
-        mapper.add_agent("Hormonal-Equilibrium", 19.0),  # Endocrine deviation
+        mapper.add_agent("Hormonal-Equilibrium", 19.0),  # Endocrine catch-all (now supplemented)
         mapper.add_agent("Muscle-Tone-Variability", -17.0),  # Musculoskeletal
-        mapper.add_agent("Respiratory-Rate-Dev", 20.0),  # Pulmonary
         mapper.add_agent("Metabolic-Rate-Index", -14.0),  # Energy metabolism
     ]
 
     # Entangle everything into one big symmetry group — brain intent controls full body
-    all_agents = brain_agents + heart_agents + other_agents
+    all_agents = brain_agents + heart_agents + endocrine_agents + respiratory_agents + other_agents
     mapper.entangle_group([neural] + all_agents)
 
     print("=== PDPBioGen Quantum Module Full-Body Healing Demo ===\n")
