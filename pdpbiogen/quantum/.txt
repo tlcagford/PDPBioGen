@@ -1,7 +1,0 @@
-pdpbiogen/
-└── quantum/
-    ├── __init__.py          # Makes it importable
-    ├── mapper.py            # Core classes: Agents, Entangler, Mapper
-    ├── demo.py              # Runnable example with synthetic + mock device data
-    ├── requirements.txt     # Minimal deps (all in your env or pip-able)
-    └── README.md           # Usage docs for the module 
