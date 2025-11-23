@@ -37,7 +37,6 @@ PDPBioGen is a modular, multi-domain research framework for integrating neural, 
 
 See the `LICENSE` file for details. 
 
-Badge: License: Dual License ## Setup 1. Clone this repository 2. Install dependencies: `pip install -r requirements.txt` 3. Set your OpenAI API key: `export OPENAI_API_KEY="your-key-here"` 4. Run: `python pdp_biogen.py` --- 
 ## 🤝 Contributing Pull requests are welcome. For major changes, open an issue to discuss your proposal.
 
 A Contributor License Agreement (CLA) may be required for future releases. ---
