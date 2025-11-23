@@ -1,4 +1,4 @@
-# dpbiogen/quantum/README.md (updated)
+# DPDBioGen/Quantum/README.md (updated)
 ## Quantum Module for PDPBioGen — Quantum-Entangled Symmetry Mapper
 
 This module adds a quantum-inspired layer to PDPBioGen that simulates non-local "entanglement"
