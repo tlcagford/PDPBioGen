@@ -17,7 +17,8 @@ A Contributor License Agreement (CLA) may be required for future releases.
 ---
 
 ## 📫 Contact
-Author: **Tony E. Ford**  
+Author: **Tony E. Ford** 
+Email: tlcagford@gmail.com
 Independent Researcher / Astrophysics & Quantum Systems
 # Neuro-Symmetry Mapper
 
