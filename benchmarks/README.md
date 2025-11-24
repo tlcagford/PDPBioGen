@@ -10,7 +10,3 @@ The test suite is split into:
 
 ## Quick start (local)
 1. Ensure you have Python 3.9+ and the test dependencies installed:
-
-python -m venv .venv
-source .venv/bin/activate
-pip install -r benchmarks/requirements.txt
