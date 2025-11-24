@@ -1,24 +1,24 @@
-FROM ubuntu:22.04
+# Dockerfile for PDPBioGen benchmark smoke image (Python 3.11 + conda env)
+FROM continuumio/miniconda3:py311_23.3.1-0
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip \
-    python3-venv \
-    graphviz \
-    && rm -rf /var/lib/apt/lists/*
+# Install mamba for faster environment creation
+RUN conda install -y -n base -c conda-forge mamba && \
+    mamba --version
 
-# Set working directory
-WORKDIR /app
+# Copy environment file and create env
+COPY environment.yml /tmp/environment.yml
+RUN mamba env create -f /tmp/environment.yml -n pdpbiogen
 
-# Copy project files
-COPY . .
+# Make conda env accessible
+SHELL ["conda", "run", "-n", "pdpbiogen", "/bin/bash", "-lc"]
 
-# Install PDPBioGen
-RUN pip3 install -e .
+# Copy repository into container
+WORKDIR /workspace
+COPY . /workspace
 
-# Test installation
-RUN python3 -c "import pdpbiogen; print('PDPBioGen imported successfully')"
+# Ensure entrypoint script can be executed
+RUN chmod +x /workspace/benchmarks/scripts/run_all_benchmarks.py || true
 
-# Set entrypoint
-ENTRYPOINT ["pdpbiogen"]
+# Default command: nothing (Nextflow will invoke container processes). Provide helpful entrypoint
+ENTRYPOINT [ "conda", "run", "-n", "pdpbiogen", "bash", "-lc" ]
+CMD [ "echo \"Container built. Run your tests (e.g. pytest ...) or run Nextflow with -profile docker.\" && bash" ]
