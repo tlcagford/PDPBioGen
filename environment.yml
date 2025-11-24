@@ -1,0 +1,23 @@
+name: pdpbiogen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26
+  - scipy=1.11
+  - pandas=2.2
+  - scikit-learn=1.3
+  - mne=1.4
+  - pytest=7.4
+  - matplotlib=3.8
+  - biopython=1.80
+  - pysam=0.21
+  - requests=2.31
+  - openai=1.8
+  - cryptography
+  - pip:
+      - pyOpenSSL
+      # If you want torch, uncomment the torch pip install line below and adjust for CPU/GPU
+      # - torch==2.2.0    # (optional: tune for cpu/gpu as required)
