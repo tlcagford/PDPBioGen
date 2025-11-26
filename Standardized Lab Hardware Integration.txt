@@ -1,0 +1,13 @@
+Proposed Lab Setup:
+├── Neural Acquisition
+│   ├── EEG/fNIRS headset (OpenBCI Cyton + Galea)
+│   ├── ECoG arrays (for animal models)
+│   └── Your quantum sensing from StealthPDPRadar
+├── Biological Monitoring
+│   ├── Live-cell imaging (confocal/multiphoton)
+│   ├── Metabolic sensors (O2/pH/glucose)
+│   └── QUILDS quantum biological state detection
+└── Intervention Systems
+    ├── Targeted PEMF/light delivery
+    ├── Precision biochemical dosing
+    └── Closed-loop feedback control
