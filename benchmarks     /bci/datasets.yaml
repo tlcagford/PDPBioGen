@@ -1,0 +1,43 @@
+/benchmarks
+    /bci
+        datasets.yaml
+        test_preprocessing.py
+        test_feature_extraction.py
+        test_classifiers.py
+        test_cross_subject.py
+        test_with_noise.py
+
+    /omics
+        /genomics
+            sample_sequences/
+            test_snp_calls.py
+            test_expression_alignment.py
+            test_multiomics_merge.py
+        /metabolic
+            sample_metabolic_profiles/
+            test_pathway_flux.py
+            test_metabolic_similarity.py
+
+    /integration
+        test_brain_to_genome_mapping.py
+        test_brain_to_metabolic_mapping.py
+        test_multiscale_pipeline_consistency.py
+
+    /agents
+        test_agent_determinism.py
+        test_agent_replay.py
+        test_agent_convergence.py
+
+    /reproducibility
+        test_random_seed_control.py
+        test_llm_api_variance.py
+        test_end_to_end_reRunConsistency.py
+
+/scripts
+    run_all_benchmarks.py
+    build_fake_datasets.py
+    install_test_dependencies.sh
+
+.github/
+    workflows/
+        benchmark.yml
