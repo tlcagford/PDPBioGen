@@ -1,3 +1,6 @@
+docker build -t pdpbiogen .
+docker run -it pdpbiogen python -c "import dpbiogen"
+
 # Dockerfile for PDPBioGen benchmark smoke image (Python 3.11 + conda env)
 FROM continuumio/miniconda3:py311_23.3.1-0
 
