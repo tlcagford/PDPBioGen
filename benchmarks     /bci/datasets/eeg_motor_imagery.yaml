@@ -1,0 +1,7 @@
+datasets:
+  - name: eeg_motor_imagery
+    url: https://physionet.org/files/eegmmidb/1.0.0/
+  - name: bci_competition_3a
+    url: https://www.bbci.de/competition/iii/desc_IIIa.pdf
+  - name: synthetic_eeg
+    generator: pdpbiogen.synthetic.generate_eeg
