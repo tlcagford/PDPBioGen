@@ -1,0 +1,26 @@
+omics_datasets:
+  - id: gtex_expression
+    name: "GTEx (gene expression matrices - open access)"
+    source: "https://gtexportal.org/home/datasets"
+    license: "GTEx open-access subset"
+    recommended_use: "Transcriptomic baseline / tissue-specific expression reference"
+    download:
+      method: "gtex_portal"
+      note: "Use 'open access' files or sample subsets for CI smoke tests."
+    smoke_sample: "benchmarks/omics/sample_data/gtex_sample_counts.tsv"
+
+  - id: tcga_rnaseq
+    name: "TCGA (RNA-Seq via GDC)"
+    source: "https://portal.gdc.cancer.gov/"
+    license: "Controlled access for raw; open for processed"
+    recommended_use: "Large-scale differential expression / cross-cohort checks (use processed matrices)"
+    download:
+      method: "gdc-client + manifest"
+      note: "Use processed expression matrices for public reproducibility."
+
+  - id: geo_pd_rnaseq
+    name: "Selected GEO - Parkinson/PBMC RNA-seq (example)"
+    source: "https://www.ncbi.nlm.nih.gov/geo/"
+    accession: "GSE174473 (example PD PBMC RNA-seq)"
+    recommended_use: "Disease-specific integration tests"
+    smoke_sample: "benchmarks/omics/sample_data/geo_gse174473_counts.tsv"
