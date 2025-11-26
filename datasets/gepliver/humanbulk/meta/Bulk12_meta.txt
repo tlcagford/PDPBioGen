@@ -1,0 +1,10 @@
+Run	GSE	Phenotype	Dataset	Dat	Ptid	Tissue	Age	Sex	Inflammation	Fibrosis	HBV	HCV	HDV	Metabolism	Alcohol	Tumor.stage	T.stage	N.stage	M.stage	Tumor.grade	Tumor.size	BCLC.stage	PRETEXT.stage	OS.event	OS	DSS.event	DSS	DFS.event	DFS	PFS.event	PFS	Treatment
+SRR12415738	GSE155907	Normal	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	Control1	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415739	GSE155907	Normal	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	Control2	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415740	GSE155907	Normal	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	Control3	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415741	GSE155907	Normal	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	Control4	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415742	GSE155907	ALD	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	AH1	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415743	GSE155907	ALD	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	AH2	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415744	GSE155907	ALD	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	AH3	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415745	GSE155907	ALD	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	AH4	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR12415746	GSE155907	ALD	Bulk-12 (GEO, Normal=4, ALD=5)	Gepliver-bulk-12	AH5	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None

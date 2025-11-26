@@ -1,0 +1,29 @@
+Run	GSE	Phenotype	Dataset	Dat	Ptid	Tissue	Age	Sex	Inflammation	Fibrosis	HBV	HCV	HDV	Metabolism	Alcohol	Tumor.stage	T.stage	N.stage	M.stage	Tumor.grade	Tumor.size	BCLC.stage	PRETEXT.stage	OS.event	OS	DSS.event	DSS	DFS.event	DFS	PFS.event	PFS	Treatment
+SRR10759848	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_406	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759849	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_AH3	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759850	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_409	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759851	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_410	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759852	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_412	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759853	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_413	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759854	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_414	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759855	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_415	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759856	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_AH1	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759857	GSE142530	ALD	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Severe AH_AH2	Liver	NA	NA	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759858	GSE142530	Cirrhosis	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Cirrhosis without AH_392	Liver	NA	NA	NA	Cirrhosis	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759859	GSE142530	Cirrhosis	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Cirrhosis without AH_394	Liver	NA	NA	NA	Cirrhosis	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759860	GSE142530	Cirrhosis	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Cirrhosis without AH_398	Liver	NA	NA	NA	Cirrhosis	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759861	GSE142530	Cirrhosis	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Cirrhosis without AH_418	Liver	NA	NA	NA	Cirrhosis	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759862	GSE142530	Cirrhosis	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Cirrhosis without AH_419	Liver	NA	NA	NA	Cirrhosis	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759863	GSE142530	Cirrhosis	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Cirrhosis without AH_420	Liver	NA	NA	NA	Cirrhosis	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759864	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_389	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759865	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_111484	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759866	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_111330	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759867	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_091119	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759868	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_396	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759869	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_399	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759870	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_400	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759871	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_111089	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759872	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_120396	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759873	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_100630	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759874	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_100733	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10759875	GSE142530	Normal	Bulk-10 (GEO, Normal=12, ALD=10, Cirrhosis=6)	Gepliver-bulk-10	Control_100088	Liver	NA	NA	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None

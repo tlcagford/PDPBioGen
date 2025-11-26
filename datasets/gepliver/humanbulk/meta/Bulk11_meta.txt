@@ -1,0 +1,11 @@
+Run	GSE	Phenotype	Dataset	Dat	Ptid	Tissue	Age	Sex	Inflammation	Fibrosis	HBV	HCV	HDV	Metabolism	Alcohol	Tumor.stage	T.stage	N.stage	M.stage	Tumor.grade	Tumor.size	BCLC.stage	PRETEXT.stage	OS.event	OS	DSS.event	DSS	DFS.event	DFS	PFS.event	PFS	Treatment
+SRR10853147	GSE143318	ALD	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Alcoholic Hepatitis Patient 1	Liver	18-49	Male	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853148	GSE143318	ALD	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Alcoholic Hepatitis Patient 2	Liver	18-49	Female	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853149	GSE143318	ALD	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Alcoholic Hepatitis Patient 3	Liver	18-49	Female	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853150	GSE143318	ALD	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Alcoholic Hepatitis Patient 4	Liver	18-49	Male	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853151	GSE143318	ALD	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Alcoholic Hepatitis Patient 5	Liver	18-49	Male	NA	NA	NA	NA	NA	NA	Yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853152	GSE143318	Normal	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Donor Patient 1	Liver	50-69	Male	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853153	GSE143318	Normal	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Donor Patient 2	Liver	50-69	Male	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853154	GSE143318	Normal	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Donor Patient 3	Liver	50-69	Female	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853155	GSE143318	Normal	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Donor Patient 4	Liver	50-69	Male	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR10853156	GSE143318	Normal	Bulk-11 (GEO, Normal=5, ALD=5)	Gepliver-bulk-11	Donor Patient 5	Liver	18-49	Female	NA	NA	NA	NA	NA	NA	No	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None

@@ -1,0 +1,245 @@
+Patient_ID	Sex	Age	Intrahepatic metastasis	Liver fluke	HBsAg  (1, positive; 0, negative)	Biliary tract stone disease	Tumor_size_diameter (cm)	Vascular invasion	Liver cirrhosis	Regional lymph Node metastasis	Distal metastasis	Perineural invasion	TB: total bilirubin (¦Ìmol/L)	ALB, albumin, (g/L)	Preoperative serum AFP£¨ng/mL£©	CA19-9, carbohydrate antigen 19-9 (U/mL)	CEA, carcinoembryonic antigen (¦Ìg/L)	ALT, aminoleucine transferase (U/L)	¦Ã-GT, ¦Ã-glutamyltransferase (U/L)	TNM stage	OS, overall survival (day)	OS_event	Adjuvant therapies	WES_seq	RNA_seq	Proteome	Phosphoproteome	Microbiome
+111	Male	49	No	No	1	No	7.5	Yes	No	No	No	No	8.4	36	5147	25.2	2.5	18	80	IIIA	682	1	TACE	Yes	Yes	No	No	No
+113	Male	59	Yes	No	0	No	15	Yes	No	Yes	No	No	9.2	38	1.8	35	2.8	18	40	IIIB	183	1	No treatment	Yes	Yes	No	No	No
+115	Male	74	No	No	0	No	4.5	Yes	No	No	No	No	7.9	39	42.7	8.2	2	11	29	IIIB	1806	0	No treatment	Yes	Yes	Yes	Yes	No
+117	Female	64	No	Yes	0	No	4.6	No	No	No	No	Yes	14.1	47	2.8	7.9	1	17	27	IIIB	808	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+121	Female	71	No	No	0	No	5.2	No	No	No	No	No	8.6	42	215.1	24.9	1.4	10	23	IB	1317	0	No treatment	Yes	Yes	Yes	Yes	Yes
+123	Male	55	No	No	0	No	2	No	No	No	No	Yes	17.8	44	2.1	30.4	0.8	89	384	IA	1101	1	No treatment	Yes	Yes	Yes	Yes	Yes
+125	Male	73	Yes	No	0	No	10	Yes	No	Yes	No	No	8.2	34	2.4	196.3	7.2	23	45	IIIB	41	1	No treatment	Yes	Yes	Yes	Yes	Yes
+127	Male	62	Yes	No	0	No	4.9	No	No	No	No	No	6.6	41	2.4	8.7	3.9	14	104	II	1318	0	Chemotherapy	Yes	Yes	No	No	No
+131	Female	56	Yes	No	0	No	10	Yes	No	No	No	No	12	35	2.9	1079	26.8	5	183	II	626	1	Chemotherapy	Yes	Yes	No	No	No
+133	Female	51	No	No	1	No	5.6	No	Yes	No	No	No	8.5	40	2	13.4	0.5	12	31	IIIA	711	1	TACE	Yes	Yes	Yes	Yes	Yes
+135	Male	72	No	No	0	No	8	Yes	No	No	No	No	8.3	45	73.9	218	22.4	12	83	II	775	0	No treatment	Yes	Yes	Yes	Yes	Yes
+137	Female	57	No	No	1	No	2.5	No	No	No	No	No	15.6	48	2.4	22.1	2.1	16	20	IA	804	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+141	Male	67	Yes	No	1	No	10	No	No	No	Yes	No	11.6	41	4.7	1428	95.9	14	43	IV	195	1	No treatment	Yes	Yes	Yes	Yes	Yes
+143	Female	67	No	No	0	No	9.3	Yes	No	No	Yes	No	8	42	0.8	40.1	2.5	15	28	IV	1590	1	No treatment	Yes	Yes	No	No	No
+145	Male	69	No	Yes	1	No	3	No	Yes	No	No	No	6	65	2.2	18.3	1.6	25	47	IA	1292	0	No treatment	Yes	Yes	Yes	Yes	No
+147	Male	51	No	No	0	No	6.5	Yes	No	Yes	No	Yes	11.6	42	1.3	347	6.6	22	100	IIIB	216	1	No treatment	Yes	Yes	Yes	Yes	No
+151	Male	70	No	No	0	Yes	6.2	No	No	No	No	No	12.5	35	2	699	1.4	19	35	IB	140	1	No treatment	Yes	Yes	No	No	No
+153	Female	50	Yes	No	0	No	2.2	No	No	No	No	No	24.4	47	11	24	1.9	11	77	II	1625	1	No treatment	No	Yes	No	No	No
+155	Male	53	No	No	1	No	4.5	Yes	No	Yes	No	No	22.4	48	9.1	46.8	11.3	35	330	IIIB	492	1	No treatment	Yes	Yes	Yes	Yes	Yes
+157	Male	61	No	No	1	No	5	No	No	No	No	No	7.1	40	2.9	403	4.3	12	38	IB	1173	0	No treatment	Yes	Yes	Yes	Yes	Yes
+161	Male	79	No	No	0	No	2.7	No	No	No	No	No	7.6	41	2.4	84.4	5.4	21	19	IA	1496	0	No treatment	Yes	Yes	Yes	Yes	No
+163	Female	52	No	No	0	Yes	3	No	No	No	No	Yes	106.6	45	4.9	5.7	2	344	712	IIIB	1386	0	Chemotherapy	No	Yes	No	No	No
+165	Male	46	Yes	No	0	No	2	No	Yes	No	No	No	13.8	48	2.8	42.2	2	33	35	II	765	1	No treatment	Yes	Yes	Yes	Yes	No
+167	Female	69	No	No	0	No	4	No	No	No	No	No	4.1	42	1.5	15.2	4.2	15	30	IA	1464	0	No treatment	Yes	Yes	Yes	Yes	No
+171	Male	67	No	No	0	No	5.5	No	No	No	No	No	18.9	42	5.4	299	7.9	11	30	IB	1185	0	No treatment	Yes	Yes	No	No	No
+175	Male	55	Yes	No	0	No	13.8	Yes	No	Yes	No	No	14.1	42	176.3	65.3	9.3	20	139	IIIB	735	1	No treatment	Yes	Yes	Yes	Yes	No
+177	Male	54	Yes	No	0	No	1.3	No	No	No	No	No	9.7	40	4.8	2.2	3.9	19	24	II	1129	1	No treatment	Yes	Yes	Yes	Yes	No
+181	Male	74	Yes	No	0	No	10	No	No	No	No	No	7.5	37	1.9	5966	87.2	36	179	II	336	1	No treatment	No	Yes	Yes	Yes	No
+183	Male	57	No	No	0	No	6.3	No	No	No	No	No	8.8	40	3.4	51.9	2.6	11	37	IB	1609	0	TACE	Yes	Yes	Yes	Yes	No
+185	Female	56	Yes	No	0	No	9	Yes	No	No	No	No	9.8	43	3.5	1.6	3.1	33	158	II	704	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+187	Female	62	Yes	No	0	No	10	Yes	No	Yes	No	No	11	46	6.5	5395	7.9	22	133	IIIB	420	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+191	Female	43	No	No	0	No	4	No	No	No	No	No	4.1	38	2	137.8	1	34	30	IA	1114	0	No treatment	Yes	Yes	Yes	Yes	No
+193	Female	68	Yes	No	1	No	5	Yes	No	No	No	No	9.1	43	2.1	29.2	0.8	22	29	II	280	1	No treatment	Yes	Yes	Yes	Yes	No
+195	Female	52	Yes	No	0	No	9	No	No	Yes	No	Yes	7.5	39	6.4	125.8	1.8	10	316	IIIB	1544	0	No treatment	Yes	Yes	No	No	No
+197	Female	49	No	No	1	No	4.2	No	No	No	No	No	4.8	39	1.6	9.3	1.3	12	35	IA	1152	0	No treatment	Yes	Yes	Yes	Yes	No
+211	Female	61	No	No	1	No	2.3	No	No	No	No	No	6.4	43	3.4	448.5	3.2	22	23	IA	1580	0	No treatment	Yes	Yes	Yes	Yes	No
+213	Female	74	No	No	0	No	6.5	Yes	No	No	No	No	4.6	42	1.4	1	5.8	19	114	II	1535	0	No treatment	Yes	Yes	Yes	Yes	Yes
+215	Male	42	Yes	No	0	No	5.6	Yes	No	Yes	No	Yes	9	43	4.4	182.7	1.5	16	158	IIIB	685	1	TACE	Yes	Yes	Yes	Yes	Yes
+217	Female	72	Yes	Yes	0	No	2.6	No	No	No	No	No	11.3	42	1.8	948.1	1.8	13	23	II	425	1	No treatment	Yes	Yes	Yes	Yes	No
+221	Female	55	No	No	0	No	6.8	Yes	No	No	No	Yes	13	45	3.9	1896	7.4	57	111	II	187	1	No treatment	Yes	Yes	Yes	Yes	No
+223	Male	45	No	No	1	No	4.4	No	No	No	No	No	18.3	49	8.3	43.7	5.5	41	63	IA	754	1	No treatment	Yes	Yes	Yes	Yes	No
+225	Female	77	Yes	No	0	No	7	Yes	No	Yes	No	Yes	7.6	42	2.1	10000	21.5	14	71	IIIB	62	1	No treatment	Yes	Yes	Yes	Yes	No
+231	Male	59	No	No	0	No	4.7	No	No	No	No	No	11.1	50	5.5	17.6	1.4	19	37	IA	278	1	No treatment	Yes	Yes	Yes	Yes	No
+233	Female	50	Yes	No	0	No	6	No	No	Yes	No	No	11.3	47	4.7	49.1	107.5	16	40	IIIB	502	1	No treatment	Yes	Yes	No	No	No
+235	Male	53	No	No	0	No	2	No	No	No	No	No	9	67	3.8	1027	2	226	138	IA	295	1	No treatment	Yes	Yes	Yes	Yes	No
+237	Male	63	No	No	0	No	5.4	No	No	No	No	No	34.3	48	3.2	5.3	1.2	14	34	IB	914	1	No treatment	Yes	Yes	Yes	Yes	No
+241	Male	66	Yes	No	1	No	3.7	Yes	Yes	Yes	Yes	No	9	43	3.8	37.4	3.3	19	33	IV	593	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+243	Female	71	Yes	Yes	0	No	7.5	Yes	Yes	No	No	Yes	11	49	1.1	10000	154.4	53	570	II	189	1	No treatment	Yes	Yes	Yes	Yes	No
+245	Male	46	No	No	0	No	3.8	No	No	No	No	No	7.2	48	4.7	49.8	3.2	26	34	IA	1394	0	No treatment	Yes	Yes	No	No	No
+247	Female	52	No	No	1	No	4	No	No	No	No	No	8.4	48	2.1	105.5	1.3	23	22	IA	1507	0	No treatment	Yes	Yes	Yes	Yes	No
+251	Male	27	No	No	0	No	2	No	No	No	No	No	6.4	46	5.8	18.2	0.6	39	40	IA	1509	0	No treatment	Yes	Yes	No	No	No
+253	Male	61	No	No	0	No	6.7	No	No	No	No	No	18	29	28.6	44.2	6.6	138	40	IB	1108	0	No treatment	Yes	Yes	Yes	Yes	No
+255	Male	63	No	No	0	No	4.4	Yes	No	No	No	Yes	8.2	43	4.4	37.5	2.8	35	35	IIIB	851	1	No treatment	Yes	Yes	No	No	No
+257	Male	65	No	No	0	No	4.9	No	No	No	No	No	22.8	45	4.8	5.4	2	26	34	IA	1499	0	No treatment	Yes	Yes	Yes	Yes	Yes
+261	Male	79	No	No	0	No	9.5	Yes	No	No	No	Yes	6.2	42	3.9	10000	15	16	186	II	745	1	No treatment	Yes	Yes	Yes	Yes	No
+263	Female	48	Yes	No	0	No	10	No	No	No	No	No	10.8	49	27.4	0.6	0.9	10	79	II	597	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+265	Female	65	Yes	No	0	No	10	Yes	No	Yes	No	No	9.7	42	30.8	540.4	1.5	15	81	IIIB	473	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+267	Female	78	No	No	1	No	7.2	No	No	No	No	No	10.6	47	1.8	129	6	12	29	IB	1491	0	No treatment	Yes	Yes	No	No	No
+271	Male	60	No	No	0	No	5.4	No	No	Yes	No	No	12.8	50	29.1	16.2	1.2	16	24	IIIB	274	1	No treatment	Yes	Yes	Yes	Yes	No
+273	Male	60	No	No	0	No	4.4	No	No	No	No	No	17.4	46	2.4	9.2	2.6	20	22	IA	1104	0	TACE	Yes	Yes	Yes	Yes	No
+275	Female	62	No	No	0	No	3.1	No	No	Yes	No	Yes	105.1	38	4.2	53.7	5.1	70	159	IIIB	321	1	No treatment	Yes	Yes	No	No	No
+277	Female	28	Yes	No	1	No	8.5	No	Yes	No	No	No	8	44	4	159.1	1.6	11	34	II	1030	0	TACE	Yes	Yes	Yes	Yes	No
+281	Male	49	Yes	No	0	No	6.3	Yes	No	Yes	No	Yes	19.9	48	4.7	9922	131	26	321	IIIB	383	1	No treatment	Yes	Yes	Yes	Yes	Yes
+283	Male	72	No	No	1	No	11.4	Yes	No	No	No	No	18.3	37	303.3	50.9	2	14	67	IIIA	478	1	No treatment	Yes	Yes	No	No	No
+285	Male	71	No	Yes	1	No	6.6	No	Yes	No	No	No	15	42	34.5	48.8	2.7	13	97	IB	499	0	No treatment	Yes	Yes	Yes	Yes	Yes
+311	Female	76	No	No	0	No	4.8	No	No	No	No	No	10.1	50	2.1	47.2	3.8	15	20	IA	758	1	No treatment	Yes	Yes	Yes	Yes	No
+313	Male	60	No	No	0	No	4.1	No	Yes	No	No	Yes	9.4	39	3.8	20.3	4.4	32	89	IA	345	0	No treatment	No	Yes	Yes	Yes	No
+317	Male	60	No	No	0	No	3	No	No	No	No	No	9.2	46	2.5	16.6	1.4	43	251	IA	1173	0	No treatment	Yes	Yes	Yes	Yes	Yes
+323	Male	54	No	No	0	Yes	5.4	Yes	No	No	No	No	9.4	44	2.3	68.3	1.6	9	25	II	1383	0	No treatment	Yes	Yes	Yes	Yes	No
+325	Male	56	Yes	No	0	No	3.9	No	No	No	No	No	9.5	42	2.5	5.2	1.4	69	88	II	544	1	No treatment	Yes	Yes	Yes	Yes	Yes
+327	Male	83	No	No	1	No	2.2	Yes	No	No	No	No	13.1	45	2	34.3	4	17	22	II	1393	0	No treatment	Yes	Yes	Yes	Yes	Yes
+331	Male	68	Yes	No	1	No	2.7	No	No	No	No	No	18.9	41	2.5	19.6	2	21	19	II	1265	0	No treatment	Yes	Yes	Yes	Yes	No
+335	Female	62	No	No	1	No	4.7	No	No	No	No	No	9.9	48	2.3	45.9	1.6	14	68	IA	1384	0	No treatment	Yes	Yes	No	No	No
+337	Male	63	No	No	0	No	9	Yes	No	Yes	No	Yes	10.8	42	2.5	382.4	301.8	18	122	IIIB	220	1	TACE	Yes	Yes	Yes	Yes	No
+341	Female	58	No	No	0	No	5.1	Yes	No	No	No	Yes	15.1	47	1.4	453.8	4.2	17	44	II	1112	0	No treatment	Yes	Yes	Yes	Yes	No
+343	Male	47	Yes	No	1	No	6.9	No	Yes	No	No	No	4.6	40	5.1	18.7	2.5	18	15	II	1240	0	No treatment	Yes	Yes	Yes	Yes	Yes
+345	Female	66	No	No	1	No	6.4	No	No	No	No	No	10	44	2.4	12.6	0.8	11	14	IB	1360	0	No treatment	Yes	Yes	Yes	Yes	No
+347	Female	74	No	No	0	No	7.5	Yes	No	No	No	No	14.6	39	6.4	58.2	0.5	26	57	II	1333	0	TACE	Yes	Yes	Yes	Yes	No
+351	Female	47	Yes	No	0	No	7.4	No	No	Yes	No	No	9.2	39	3	3060	9.1	67	594	IIIB	276	1	No treatment	Yes	Yes	Yes	Yes	Yes
+355	Female	53	Yes	No	0	No	3.9	No	No	Yes	No	No	12.7	43	2	32.2	0.9	44	29	IIIB	939	1	No treatment	Yes	Yes	No	No	No
+357	Male	70	No	No	0	No	3.6	Yes	No	No	No	Yes	15.5	41	3	647.1	2.1	31	272	II	411	1	No treatment	Yes	Yes	Yes	Yes	Yes
+361	Female	62	No	No	0	No	8.3	Yes	No	No	No	No	5.7	46	2.9	39.7	2.3	26	195	II	631	1	No treatment	Yes	Yes	Yes	Yes	Yes
+363	Female	83	No	Yes	0	No	2.7	No	No	No	No	No	8.6	41	5	13.3	1.2	8	16	IA	1256	0	No treatment	Yes	Yes	Yes	Yes	No
+365	Female	59	No	No	0	No	3.2	Yes	No	Yes	No	No	10.1	45	4	107.1	3.4	10	95	IIIB	595	1	No treatment	Yes	Yes	Yes	Yes	No
+367	Male	70	No	No	0	No	4.8	No	No	Yes	No	Yes	14.1	44	5.4	12.1	1.9	62	90	IIIB	295	1	No treatment	Yes	Yes	Yes	Yes	Yes
+375	Male	60	Yes	No	1	No	5.9	Yes	No	Yes	No	No	10	46	1.5	96.6	2.9	47	25	IIIB	846	1	No treatment	Yes	Yes	Yes	Yes	No
+381	Male	57	Yes	No	0	No	5.3	Yes	No	No	No	Yes	4	39	3.6	10000	11.9	28	390	IIIA	210	1	No treatment	Yes	Yes	No	No	No
+383	Female	73	Yes	Yes	0	No	2.6	No	No	No	No	No	11.3	42	2.4	948.1	1.8	13	24	II	437	1	No treatment	Yes	Yes	Yes	Yes	No
+385	Male	61	Yes	No	0	No	6.8	Yes	No	No	Yes	No	11	39	2.8	10000	92.5	14	93	IV	495	1	TACE	Yes	Yes	Yes	Yes	Yes
+387	Male	70	No	No	0	No	7.3	Yes	No	Yes	No	Yes	10.8	41	6.3	10000	155.4	25	118	IIIB	668	1	No treatment	Yes	Yes	Yes	Yes	No
+393	Female	67	No	No	0	No	4.5	No	No	No	No	No	5.4	45	1.7	20.6	2.7	10	104	IA	1269	0	No treatment	Yes	Yes	Yes	Yes	No
+395	Female	62	Yes	No	0	No	10.3	Yes	No	No	No	No	12.5	48	1.9	14.1	2.2	17	44	II	1201	0	TACE	Yes	Yes	Yes	Yes	Yes
+397	Male	69	No	No	0	No	1.6	No	No	No	No	No	6.7	42	2.4	4036	23.7	17	32	IA	1251	0	No treatment	Yes	Yes	Yes	Yes	No
+411	Male	30	No	No	1	No	7.8	No	No	No	No	Yes	11.5	46	4.6	7.3	0.5	28	61	IB	1193	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+413	Male	40	No	No	0	No	5.9	No	No	Yes	No	No	5.7	45	5.4	7.2	7.6	18	96	IIIB	1188	0	Chemotherapy	Yes	Yes	No	No	No
+415	Male	62	Yes	No	0	No	3.8	No	No	No	No	No	5.5	38	2.1	12.2	2.2	14	25	II	1140	0	No treatment	Yes	Yes	Yes	Yes	Yes
+421	Male	41	No	No	1	No	5.5	No	No	No	No	No	11.4	47	2	109.1	2.3	26	25	IB	1120	0	TACE	Yes	Yes	No	No	No
+423	Female	70	Yes	No	0	No	10.6	Yes	No	No	No	Yes	5.4	42	2.1	2791	126.8	7	50	II	88	1	No treatment	Yes	Yes	Yes	Yes	No
+425	Male	61	Yes	No	0	No	5.2	No	No	Yes	Yes	No	7	39	2.3	18.2	5.3	16	80	IV	341	1	No treatment	Yes	Yes	Yes	Yes	No
+427	Male	75	No	Yes	0	No	2.8	No	No	No	No	Yes	8.5	38	1.5	40	2.8	17	113	IIIA	534	1	No treatment	Yes	Yes	Yes	Yes	No
+433	Female	54	No	No	1	No	8.8	No	No	No	No	No	11.9	46	3.8	17.3	0.9	21	112	IB	245	0	TACE	Yes	Yes	Yes	Yes	Yes
+435	Male	61	Yes	No	0	No	9.8	No	No	Yes	No	No	7.9	31	1.6	272.3	0.8	21	222	IIIB	264	1	No treatment	Yes	Yes	Yes	Yes	Yes
+437	Male	67	Yes	No	0	Yes	9	Yes	No	Yes	Yes	No	8.5	44	35.5	2.2	11.4	65	137	IV	98	1	No treatment	Yes	Yes	Yes	Yes	No
+443	Male	48	No	No	0	No	9.5	No	No	Yes	No	No	15.4	51	3	16.9	5.9	70	63	IIIB	1211	0	No treatment	Yes	Yes	Yes	Yes	Yes
+445	Female	49	No	No	0	No	8.6	Yes	No	No	No	No	9.3	45	2.9	307.6	4.2	25	56	II	1181	1	No treatment	Yes	Yes	Yes	Yes	Yes
+447	Male	53	Yes	No	0	No	7.5	Yes	No	No	No	Yes	9.1	44	2.5	73.1	0.7	28	50	II	709	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+451	Female	65	No	No	1	No	3.1	No	Yes	No	No	No	9.2	45	0.9	94.4	12.4	21	23	IA	372	1	No treatment	Yes	Yes	Yes	Yes	No
+453	Female	58	No	No	0	Yes	3.5	Yes	No	No	No	No	7.8	40	2.7	583	5.2	22	35	II	349	1	No treatment	Yes	Yes	Yes	Yes	No
+455	Male	62	Yes	No	0	No	6.8	No	No	No	No	No	7.7	39	2.7	174	9.7	12	142	II	430	1	Chemotherapy	Yes	Yes	No	No	No
+457	Female	66	No	No	1	No	5.4	No	Yes	No	No	No	5.9	44	2.1	32	1	12	19	IB	1175	0	No treatment	Yes	Yes	Yes	Yes	Yes
+461	Female	48	No	No	0	No	4.5	Yes	No	No	Yes	Yes	11.6	42	1.7	1104	1.1	356	129	IV	491	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+463	Male	63	No	No	1	No	2.2	No	No	No	No	No	63	40	1.7	7.1	1.7	28	18	IA	1091	0	No treatment	Yes	Yes	Yes	Yes	Yes
+467	Female	68	No	No	0	No	3.8	Yes	No	No	No	No	15.2	41	3.1	46.5	2.6	19	26	II	1089	0	TACE	Yes	Yes	Yes	Yes	Yes
+471	Male	43	No	No	1	No	2.7	Yes	No	Yes	No	No	13.5	44	7.1	64.6	2.5	46	584	IIIB	72	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+473	Female	64	No	No	0	No	3.6	Yes	No	No	No	No	7.5	45	1.8	21.7	2.3	16	24	IIIB	1142	0	No treatment	Yes	Yes	Yes	Yes	No
+475	Male	42	No	No	1	No	1.6	No	No	No	No	No	8.4	49	1.7	9.9	2.4	68	74	IA	1006	0	No treatment	Yes	Yes	No	No	No
+477	Male	65	No	No	1	No	5	Yes	No	No	No	No	6.6	39	2	16.7	3.3	12	19	II	1141	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+483	Male	50	Yes	No	1	No	9.5	Yes	No	No	No	No	6.8	47	3.7	1188	6.2	18	261	II	771	1	TACE	Yes	Yes	Yes	Yes	No
+485	Male	79	No	No	0	No	3.2	No	No	No	No	No	9.1	38	3.1	19.8	2.5	27	53	IA	1114	0	No treatment	Yes	Yes	Yes	Yes	Yes
+487	Male	50	Yes	No	0	No	7.6	Yes	No	Yes	No	Yes	8.7	42	7.6	95.1	1.3	24	465	IIIB	1112	0	No treatment	Yes	Yes	Yes	Yes	No
+491	Male	62	No	No	0	Yes	7	Yes	No	No	No	No	18.9	35	3.6	1825	3.6	28	364	II	326	1	No treatment	Yes	Yes	No	No	No
+493	Male	64	No	No	0	No	6.2	No	No	Yes	No	No	8	42	2.4	317.4	2	43	96	IIIB	117	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+495	Female	51	No	No	0	No	2.6	No	No	No	No	No	23.3	46	11.5	21.8	1.8	10	22	IA	1036	1	No treatment	No	Yes	Yes	Yes	No
+497	Male	70	No	No	0	No	4	No	No	No	No	No	24.6	35	3.1	17.3	5.8	189	34	IA	1062	0	No treatment	Yes	Yes	Yes	Yes	No
+511	Female	59	No	No	0	No	5.7	No	No	No	No	No	9.5	45	2.5	15.5	2.2	12	26	IB	1098	0	No treatment	Yes	Yes	No	No	No
+513	Male	57	Yes	No	0	No	3.8	No	No	Yes	Yes	Yes	8.9	40	4	1678	2.1	340	147	IV	91	1	No treatment	No	Yes	Yes	Yes	No
+515	Male	44	No	No	0	No	6.7	No	No	No	No	Yes	4.9	47	2.3	0.6	1.1	13	97	IB	773	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+517	Male	55	No	No	0	No	4.3	No	No	No	No	No	10.3	38	2.9	7.3	1	12	17	IA	1074	0	No treatment	Yes	Yes	Yes	Yes	Yes
+521	Male	75	No	No	0	No	9.9	Yes	No	No	No	No	9.5	38	34.8	43	1.3	12	539	II	1041	0	No treatment	Yes	Yes	Yes	Yes	Yes
+523	Male	70	Yes	No	0	No	6.6	Yes	No	No	No	Yes	8.8	37	3	3453	1.7	10	63	II	362	1	No treatment	Yes	Yes	Yes	Yes	Yes
+525	Female	52	Yes	No	0	No	3.8	No	No	Yes	Yes	No	10.8	45	5.2	918.4	3.5	83	132	IV	139	1	No treatment	Yes	Yes	No	No	No
+531	Female	56	No	No	1	No	5.7	No	No	No	No	No	8.5	37	18.2	163.4	2.9	46	549	IB	1077	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+533	Female	50	No	No	0	No	4	Yes	No	No	No	No	19.7	40	1.5	4.1	0.5	10	42	II	1028	0	No treatment	Yes	Yes	Yes	Yes	Yes
+535	Female	41	Yes	No	0	No	5.5	No	No	Yes	No	No	9.5	41	2.3	46.5	0.9	20	106	IIIB	184	1	No treatment	Yes	Yes	Yes	Yes	Yes
+537	Male	67	No	No	0	No	8.8	Yes	No	Yes	No	Yes	18.4	37	2.2	3159	1.9	66	560	IIIB	185	1	No treatment	Yes	Yes	Yes	Yes	No
+541	Male	50	Yes	No	0	No	3	Yes	No	No	No	No	10.9	44	5.1	0.6	1.6	63	585	II	1035	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+543	Male	57	Yes	No	0	No	7.8	Yes	No	No	No	No	14.2	43	4.8	18.8	5.8	29	106	II	1057	0	No treatment	Yes	Yes	Yes	Yes	Yes
+545	Male	68	No	Yes	0	No	3	No	No	No	No	No	10.2	39	2.1	12.9	1.4	27	74	IA	1038	0	No treatment	Yes	Yes	Yes	Yes	No
+547	Male	51	Yes	No	0	No	6	Yes	Yes	Yes	No	Yes	11.8	46	56.1	509.6	3.4	24	41	IIIB	957	1	TACE	Yes	Yes	Yes	Yes	No
+551	Male	61	No	No	0	No	5.8	No	No	No	No	No	8.5	41	4.7	0.6	4.6	9	38	IB	903	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+553	Male	53	No	No	1	No	3.6	No	No	No	No	No	8.6	37	3.6	0.7	5.6	23	29	IA	718	0	No treatment	Yes	Yes	Yes	Yes	No
+555	Male	55	Yes	No	1	No	8.2	No	Yes	No	No	No	13.7	33	2.1	164.7	3.5	28	70	II	508	1	Chemotherapy	Yes	Yes	No	No	No
+557	Female	49	Yes	No	0	No	7.3	Yes	No	Yes	No	No	9.3	24	6.4	43.9	1.6	32	420	IIIB	869	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+561	Male	60	No	No	0	No	4.3	No	No	No	No	Yes	12.5	38	1.6	19.1	2.5	19	1.6	IIIB	1009	0	No treatment	Yes	Yes	Yes	Yes	No
+563	Female	57	No	No	0	No	4.4	Yes	No	No	No	No	10.2	43	2.2	10.7	1.8	16	69	II	1001	1	No treatment	Yes	Yes	Yes	Yes	Yes
+565	Female	72	Yes	No	1	No	8.1	Yes	Yes	No	No	No	10.9	45	3.8	12	1.2	13	31	II	912	0	No treatment	Yes	Yes	Yes	Yes	Yes
+567	Male	54	Yes	No	1	No	11.8	Yes	No	Yes	No	No	12.3	42	33.4	68.2	2.4	33	55	IIIB	169	1	No treatment	Yes	Yes	Yes	Yes	Yes
+571	Male	57	Yes	No	0	No	5.6	No	No	No	No	Yes	13.1	44	2.4	10000	16	47	137	IIIB	984	0	No treatment	Yes	Yes	No	No	No
+573	Male	69	No	Yes	0	No	3.9	No	No	No	No	No	6.7	44	7.3	72.6	3.1	25	34	IA	986	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+575	Female	58	No	No	1	No	3.6	No	No	No	No	No	23.2	42	1.7	0.6	0.8	18	19	IA	970	0	No treatment	Yes	Yes	Yes	Yes	Yes
+577	Female	52	Yes	No	0	No	6.6	No	No	No	No	No	10.2	43	3.6	8.2	4.6	20	24	II	956	0	No treatment	Yes	Yes	Yes	Yes	Yes
+581	Female	73	Yes	No	0	No	4.5	No	No	No	No	No	9.1	42	2.9	70.3	1.9	8	70	II	966	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+583	Female	82	Yes	No	0	No	6.4	Yes	No	No	No	No	6.2	38	3.4	10000	23.7	29	136	II	247	1	TACE	Yes	Yes	Yes	Yes	Yes
+585	Male	41	Yes	No	1	No	2.5	No	No	No	No	No	13.4	47	2.2	190.3	4	44	17	II	875	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+587	Male	54	No	No	0	No	2.9	Yes	No	No	No	Yes	298.5	40	5.2	409	4.5	230	5.2	IIIB	220	0	No treatment	Yes	Yes	Yes	Yes	No
+591	Male	57	No	No	0	No	8	Yes	No	No	No	No	192.8	43	1.9	624.9	5.5	261	339	II	181	1	TACE	Yes	Yes	Yes	Yes	No
+611	Male	72	No	No	0	No	5.5	No	No	No	No	No	16.2	46	27.5	35.4	4.1	18	40	IB	816	0	Chemotherapy	Yes	Yes	No	No	No
+613	Female	57	Yes	No	0	No	5.1	Yes	No	No	Yes	No	8.1	47	5.2	16.5	1.2	13	43	IV	623	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+615	Male	51	No	No	1	No	3	Yes	No	No	No	No	6	41	3.1	35.7	5.4	15	35	II	519	0	TACE	Yes	Yes	Yes	Yes	No
+617	Female	49	No	No	1	No	5.4	Yes	No	Yes	No	No	17.5	44	1.3	33	1.1	17	66	IIIB	834	0	No treatment	Yes	Yes	Yes	Yes	Yes
+621	Female	70	No	No	0	No	6.7	No	No	No	No	No	17.7	47	2.7	219.6	3.3	17	51	IB	863	0	No treatment	Yes	Yes	Yes	Yes	No
+623	Female	71	No	No	1	No	2.9	Yes	No	No	No	No	9.7	50	1.5	11.7	3	27	24	IIIB	357	1	No treatment	Yes	Yes	Yes	Yes	No
+625	Female	67	Yes	No	0	No	7	No	No	Yes	No	No	12.5	47	1.6	26.2	1.4	17	71	IIIB	897	0	No treatment	Yes	Yes	Yes	Yes	No
+627	Male	65	No	No	0	No	7.1	No	No	No	No	No	10.2	48	16	80.6	5.8	33	86	IB	851	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+631	Female	59	Yes	No	0	No	11.8	Yes	No	No	No	No	10.8	48	4	1576	8.1	30	167	II	874	0	No treatment	Yes	Yes	Yes	Yes	Yes
+633	Male	86	No	Yes	0	No	2.8	No	No	No	No	Yes	6.6	30	3	130.5	1.6	11	47	IIIB	330	0	No treatment	Yes	Yes	Yes	Yes	No
+635	Male	58	No	No	0	No	6.5	No	No	No	No	No	11.4	50	2.5	85.9	4	22	38	IB	856	0	No treatment	Yes	Yes	Yes	Yes	Yes
+637	Male	57	No	No	1	No	5.8	Yes	Yes	No	No	No	10.4	38	40.9	83.5	5.6	37	175	II	274	1	No treatment	Yes	Yes	Yes	Yes	No
+641	Male	68	No	No	0	No	5.9	No	No	No	No	No	22.9	37	3.7	229.8	1.7	32	316	IB	305	0	No treatment	Yes	Yes	Yes	Yes	Yes
+643	Male	52	No	No	0	No	9.7	Yes	No	No	No	No	7.7	37	3	287.7	3.2	20	162	II	257	0	TACE	Yes	Yes	Yes	Yes	Yes
+645	Male	70	No	No	0	No	4.8	Yes	No	Yes	No	No	34.4	50	8.9	0.6	191.4	132	98	IIIB	31	1	No treatment	Yes	Yes	No	No	No
+647	Male	68	No	No	0	No	4.7	Yes	No	No	No	No	11.4	46	2	2435	3.7	11	28	II	820	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+651	Male	60	No	No	1	No	4.2	Yes	Yes	Yes	No	No	17.4	48	2.9	109.9	13.9	20	62	IIIB	367	1	No treatment	Yes	Yes	Yes	Yes	No
+653	Male	74	No	Yes	0	No	10	Yes	No	No	No	Yes	11.7	40	1.3	1410	2.6	14	89	II	470	1	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+655	Female	60	No	No	0	No	4.5	No	No	Yes	No	Yes	9.2	43	2.5	205.2	3.3	23	18	IIIB	717	1	No treatment	Yes	Yes	Yes	Yes	No
+657	Male	70	No	Yes	1	No	3.6	No	No	No	No	No	16	39	2.8	54.3	2.1	30	72	IA	806	0	No treatment	Yes	Yes	Yes	Yes	No
+661	Female	65	No	No	0	No	9.7	No	No	No	No	No	4.1	41	3.5	31.8	1.8	14	57	IIIB	768	0	No treatment	Yes	Yes	Yes	Yes	No
+663	Female	32	Yes	No	1	No	3.2	No	No	No	No	No	20.2	43	5445	25.5	1.1	113	74	II	793	0	TACE	Yes	Yes	Yes	Yes	Yes
+665	Male	60	No	No	0	No	8.1	No	No	No	No	No	9.3	40	2514	4.8	1.7	21	26	IB	774	0	No treatment	Yes	Yes	Yes	Yes	Yes
+667	Female	67	Yes	Yes	0	No	9	No	No	No	No	No	5.6	39	4.1	8.5	2.1	16	25	II	423	1	No treatment	Yes	Yes	No	No	No
+673	Female	57	No	No	1	No	3	No	No	No	No	No	11.2	43	2.8	11.6	1.7	16	11	IA	724	0	No treatment	Yes	Yes	Yes	Yes	No
+675	Male	78	No	No	0	No	9.5	Yes	No	No	No	No	7.7	44	9.6	17.4	3.4	19	42	II	613	0	No treatment	Yes	Yes	Yes	Yes	No
+677	Female	43	No	No	1	No	5.7	No	No	No	No	No	15.3	40	3.8	8.6	1.2	14	16	IB	683	0	No treatment	Yes	Yes	No	No	No
+681	Male	71	No	No	1	No	7.7	Yes	Yes	No	No	No	14.8	42	973.1	19.3	1.7	16	136	II	523	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+683	Male	50	Yes	No	1	No	7.4	Yes	No	No	No	No	11.9	45	1.8	10.8	2.7	23	54	II	730	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+685	Male	67	No	No	1	No	4.2	Yes	No	Yes	No	No	21.3	48	7.7	287.8	4.8	22	46	IIIB	417	0	No treatment	Yes	Yes	Yes	Yes	No
+687	Male	61	No	No	0	No	9.4	No	No	No	No	No	11.9	47	3.3	9.4	2.9	54	260	IB	694	0	No treatment	Yes	Yes	Yes	Yes	No
+691	Male	68	No	No	0	No	5.2	No	No	No	No	No	6.3	45	22.4	18.5	2.9	10	30	IB	235	0	TACE	Yes	Yes	Yes	Yes	Yes
+693	Female	39	No	No	0	No	2.1	No	No	No	No	No	10.8	46	6.2	12.2	0.4	14	17	IA	715	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+811	Male	69	No	No	0	No	7.7	Yes	No	No	No	No	12.6	58	1265	0.6	4.8	18	63	II	650	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+813	Female	75	No	Yes	0	No	6.3	Yes	No	No	No	No	13.1	40	2.7	13	1.5	31	67	II	516	1	No treatment	Yes	Yes	Yes	Yes	Yes
+817	Female	41	No	No	0	No	5	Yes	No	No	No	No	18.6	49	3.4	147.3	3.8	127	423	II	583	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+821	Male	65	Yes	No	0	Yes	6.1	Yes	No	No	No	No	21.4	43	3.4	6.7	0.6	10	40	II	691	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+823	Female	50	No	No	1	No	4.5	No	No	No	No	No	12	49	2.6	23.2	2.4	14	11	IA	637	0	No treatment	Yes	Yes	Yes	Yes	No
+825	Male	47	No	No	0	No	7.6	No	No	No	No	No	8.9	47	3.8	0.6	3.5	18	36	IB	626	0	No treatment	Yes	Yes	Yes	Yes	No
+827	Male	46	No	No	0	No	9.5	Yes	No	No	No	Yes	15.7	35	1.4	142.4	6	138	184	II	283	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+831	Male	58	No	No	1	No	9.8	Yes	No	Yes	No	No	9.3	46	3.2	5934	3.1	20	150	IIIB	162	1	Chemotherapy	Yes	Yes	No	No	No
+835	Male	75	No	No	0	No	5.6	No	No	No	No	No	16.6	45	4.2	17.8	1.4	27	210	IB	573	0	No treatment	Yes	Yes	Yes	Yes	No
+841	Male	62	No	No	1	No	7	No	No	No	No	Yes	13.1	44	3	103.2	5.7	24	82	IB	571	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+843	Female	65	No	No	0	No	8.7	Yes	No	No	No	No	8.7	45	15	24.9	2.9	9	17	II	566	0	No treatment	Yes	Yes	Yes	Yes	No
+845	Female	77	Yes	No	0	No	7.8	Yes	No	No	No	No	5.9	43	3.8	34.1	1.2	16	34	II	415	1	No treatment	Yes	Yes	Yes	Yes	No
+847	Female	65	Yes	No	0	No	5	Yes	No	No	No	No	9.1	38	5.2	2801	3.2	18	66	II	276	1	TACE	Yes	Yes	Yes	Yes	No
+851	Female	66	Yes	No	0	No	8.1	No	No	No	No	Yes	5.6	44	2.9	67.5	4.7	13	25	IIIB	562	0	No treatment	Yes	Yes	Yes	Yes	No
+853	Male	66	Yes	No	0	No	6	No	No	Yes	Yes	No	18.8	46	3.3	139.1	12.6	11	21	IV	48	0	No treatment	Yes	Yes	Yes	Yes	No
+855	Female	55	Yes	No	1	No	9	No	No	No	No	No	9.9	64	2.8	129.2	1.1	30	349	II	554	0	TACE	Yes	Yes	No	No	No
+857	Male	67	No	No	0	No	4	Yes	No	Yes	No	No	14.1	45	2.4	1219	1.6	34	22	IIIB	521	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+861	Male	65	No	No	0	No	5.5	Yes	No	No	No	No	15.1	50	12.3	30.1	4.1	32	116	IIIB	544	0	No treatment	Yes	Yes	Yes	Yes	Yes
+863	Female	71	No	No	0	No	4	No	No	No	No	No	11.8	44	5.8	2278	3.4	12	82	IA	732	0	No treatment	Yes	Yes	Yes	Yes	Yes
+865	Male	65	No	No	1	No	6	No	No	No	No	Yes	12.6	68	2.3	26	3.1	25	135	IB	537	0	No treatment	Yes	Yes	Yes	Yes	No
+867	Female	76	No	No	0	Yes	7	No	No	No	No	Yes	4.4	44	1.3	1.9	20	19	193	IIIB	587	0	No treatment	Yes	Yes	No	No	No
+871	Male	49	No	No	1	No	4	No	No	No	No	Yes	95.8	41	2.5	2251	10.9	276	574	IA	511	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+875	Female	49	No	No	0	No	7	No	No	No	No	No	13	51	2.2	96.4	0.9	28	110	IIIB	548	0	No treatment	Yes	Yes	Yes	Yes	No
+877	Female	38	No	No	0	No	3.5	No	No	No	No	No	8.4	49	3.8	42.4	1.5	31	148	IA	545	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+881	Male	49	No	No	0	No	8	Yes	No	No	No	No	15.2	52	1.6	150.7	36	34	123	II	526	0	Chemotherapy	Yes	Yes	No	No	No
+883	Female	74	No	No	0	No	3	No	Yes	No	No	No	13.5	41	3.7	17.6	6.5	24	224	IA	569	0	No treatment	Yes	Yes	No	No	No
+885	Male	82	No	No	0	No	4.5	No	No	No	No	No	16.6	52	3.5	794.7	4	37	251	IA	575	0	No treatment	Yes	Yes	No	No	No
+911	Female	69	No	No	0	No	11	Yes	No	No	No	No	12.6	47	2.8	82.8	1.5	18	99	IIIB	514	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+913	Male	56	No	No	0	No	3	No	Yes	No	No	No	33.6	46	2.8	19.2	2.8	23	29	IA	511	0	No treatment	Yes	Yes	Yes	Yes	No
+915	Female	55	No	No	0	No	6.5	Yes	No	Yes	Yes	No	11.9	45	2.8	27.4	3.3	9	28	IV	569	0	No treatment	Yes	Yes	No	No	No
+917	Male	70	No	No	1	No	4	No	No	No	No	No	7.8	38	6.1	22.8	3.2	12	19	IIIB	481	1	Chemotherapy	Yes	Yes	Yes	Yes	No
+921	Male	50	Yes	No	0	No	10.5	Yes	No	No	No	Yes	8.7	42	7.6	95.1	1.3	24	465	IIIB	561	0	No treatment	Yes	Yes	Yes	Yes	No
+923	Female	72	No	No	0	No	5	Yes	No	No	No	Yes	16.1	49	3.4	70.1	3	45	90	IIIB	393	1	No treatment	Yes	Yes	Yes	Yes	No
+925	Female	67	Yes	No	1	No	9	Yes	No	No	No	No	14.2	46	2.6	14.7	1.5	70	19	IIIB	547	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+927	Female	66	No	No	0	No	5.5	No	No	No	No	No	9.8	48	2.1	163.4	4.3	13	52	IIIB	477	0	No treatment	Yes	Yes	Yes	Yes	No
+931	Male	65	Yes	No	0	No	6	No	No	No	No	No	11	43	1.7	153	3.3	16	63	II	488	0	TACE	Yes	Yes	Yes	Yes	Yes
+937	Female	60	No	No	0	No	3	No	No	No	No	No	7.8	48	3.3	27.9	0.8	18	20	IA	482	0	No treatment	Yes	Yes	Yes	Yes	No
+941	Male	61	Yes	No	1	No	5.1	No	Yes	No	No	No	24.5	39	9.7	45.9	3.4	88	64	IIIB	498	0	TACE	Yes	Yes	Yes	Yes	No
+945	Female	81	No	No	0	Yes	4	Yes	No	No	No	No	10.7	40	2.6	81.2	3.6	14	272	IIIB	462	0	No treatment	Yes	Yes	No	No	No
+947	Female	41	No	No	0	No	4	Yes	No	No	No	No	15.3	46	2.2	6.9	1.5	13	12	II	461	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+951	Male	70	Yes	No	0	No	6	No	No	No	No	No	20.8	36	2.1	158.2	2	253	48	IIIB	492	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+953	Female	70	Yes	No	0	Yes	7.8	No	No	No	No	No	4.7	40	2.2	1.7	20.1	12	30	IIIB	123	1	No treatment	Yes	Yes	Yes	Yes	No
+957	Female	47	Yes	No	0	No	2.5	No	No	No	No	No	4.7	45	2.7	5.8	2.21	15	23	IIIB	487	0	No treatment	Yes	Yes	No	No	No
+961	Female	61	Yes	No	0	No	4.8	Yes	No	Yes	No	Yes	137.7	42	3.9	10000	5.3	359	1003	IIIB	48	1	No treatment	Yes	Yes	Yes	Yes	No
+963	Male	47	No	No	0	No	9	No	Yes	No	No	No	13.2	49	3567	26.2	2.4	84	64	IIIB	401	0	No treatment	Yes	Yes	Yes	Yes	Yes
+965	Male	65	No	No	0	No	4.5	Yes	No	No	No	Yes	171.1	41	1.3	10000	189.4	152	237	II	431	0	No treatment	Yes	Yes	Yes	Yes	No
+971	Male	48	Yes	No	1	No	1.5	No	No	No	No	No	11	47	1.3	237.3	1.6	11	22	II	462	0	No treatment	Yes	Yes	Yes	Yes	No
+973	Male	70	No	No	0	No	2	No	No	No	No	Yes	15	49	1.9	848.3	4.4	23	66	IA	453	0	No treatment	Yes	Yes	Yes	Yes	No
+975	Female	70	Yes	No	0	No	5.3	Yes	No	No	No	No	12.4	51	1.8	2293	1.6	19	70	IIIB	331	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+977	Female	72	Yes	No	1	No	9	Yes	No	Yes	Yes	Yes	11.3	47	1.9	163.3	2.4	30	207	IV	164	0	Chemotherapy	Yes	Yes	Yes	Yes	No
+981	Female	65	No	No	0	No	7.5	Yes	No	Yes	No	No	16.2	44	5.8	0.8	2.6	8	24	IIIB	447	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes
+983	Female	65	No	No	1	No	3.3	No	No	No	No	No	14.6	49	4.6	28.3	2.2	17	20	IA	330	0	No treatment	Yes	Yes	Yes	Yes	No
+987	Male	63	Yes	No	0	No	7	No	No	No	No	No	9.3	44	15.3	249	3.6	15	47	II	427	0	TACE	Yes	Yes	No	No	No
+993	Female	63	No	No	1	No	3.7	No	Yes	No	No	No	23	46	3.5	406.3	1.4	16	25	IIIB	400	0	No treatment	Yes	Yes	Yes	Yes	No
+995	Female	69	No	No	0	No	4.5	No	No	No	No	No	11.6	45	4.3	28.6	2.4	10	20	IIIB	379	0	Chemotherapy	Yes	Yes	Yes	Yes	Yes

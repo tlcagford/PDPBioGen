@@ -1,0 +1,3 @@
+Run	GSE	Phenotype	Dataset	Dat	Ptid	Tissue	Age	Sex	Inflammation	Fibrosis	HBV	HCV	HDV	Metabolism	Alcohol	Tumor.stage	T.stage	N.stage	M.stage	Tumor.grade	Tumor.size	BCLC.stage	PRETEXT.stage	OS.event	OS	DSS.event	DSS	DFS.event	DFS	PFS.event	PFS	Treatment
+SRR3192439	GSE78569	Fetal	Bulk-04 (GEO, Fetal=2)	Gepliver-bulk-04	NA	Liver	20w	Female	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
+SRR3192440	GSE78569	Fetal	Bulk-04 (GEO, Fetal=2)	Gepliver-bulk-04	NA	Liver	22w	Male	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	None
