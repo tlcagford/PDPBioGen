@@ -8,6 +8,7 @@ scikit-learn>=1.0.0
 qutip>=4.7.0
 plotly>=5.0.0
 requests>=2.25.0
+kaleido>=0.1.0
 """
 
 with open('requirements.txt', 'w') as f:
