@@ -69,8 +69,15 @@ def load_configuration(input_file: str) -> Dict[str, Any]:
         raise ConfigurationError(f"Input file not found: {input_file}")
     except PermissionError:
         raise ConfigurationError(f"Permission denied reading: {input_file}")
-
-def create_diagram(data: Dict[str, Any]) -> graphviz.Digraph:
+def get_expanded_colors():
+    """30 distinct colors for better domain differentiation"""
+    return [
+        '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b',
+        '#e377c2', '#7f7f7f', '#bcbd22', '#17becf', '#393b79', '#637939',
+        '#8c6d31', '#843c39', '#7b4173', '#5254a3', '#6b6ecf', '#9c9ede',
+        '#3182bd', '#e6550d', '#31a354', '#756bb1', '#636363', '#bd9e39',
+        '#6baed6', '#fd8d3c', '#74c476', '#9e9ac8', '#969696', '#d9d9d9'
+    ]
     """Create Graphviz diagram from configuration data."""
     try:
         # Validate configuration
