@@ -1,0 +1,30 @@
+bci_datasets:
+  - id: physionet_eegmmidb
+    name: "PhysioNet EEG Motor Movement/Imagery (EEGMMIDB)"
+    source: "https://physionet.org/content/eegmmidb/1.0.0/"
+    license: "Open Data Commons Attribution"
+    recommended_use: "Primary BCI classification and preprocessing tests (64-ch, 109 subjects)."
+    download:
+      method: "wget"
+      url: "https://archive.physionet.org/pn4/eegmmidb/" 
+    smoke_sample: "benchmarks/bci/sample_data/eegmmidb_subject1.edf"
+
+  - id: bbci_comp3a
+    name: "BCI Competition III - Dataset IIIa"
+    source: "https://bbci.de/competition/iii/download/"
+    license: "Competition dataset (public download)"
+    recommended_use: "Cross-subject generalization tests; offline motor imagery paradigms."
+    download:
+      method: "direct"
+      urls:
+        - "https://bbci.de/competition/iii/download/gdf_subject1.gdf"
+    smoke_sample: "benchmarks/bci/sample_data/bcicomp3a_subj1.gdf"
+
+  - id: bnci_collection
+    name: "BNCI Horizon 2020 collection (subset)"
+    source: "https://bnci-horizon-2020.eu/database/data-sets"
+    license: "Open access"
+    recommended_use: "Diversity tests across acquisition setups and devices."
+    download:
+      method: "manual_or_scripted"
+      note: "Use dataset IDs listed on BNCI site; prefer small/low-channel sets for CI."
