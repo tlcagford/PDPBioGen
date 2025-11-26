@@ -1,0 +1,8 @@
+metabolomics_datasets:
+  - id: metabolomics_workbench_study
+    name: "Metabolomics Workbench - selected studies"
+    source: "https://www.metabolomicsworkbench.org/"
+    recommended_use: "Metabolic profile validation and pathway flux tests"
+    download:
+      method: "API / mwTab / direct"
+    smoke_sample: "benchmarks/metabolic/sample_data/metabolomics_small.tsv"
