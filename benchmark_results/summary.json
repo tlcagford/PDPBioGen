@@ -3,3 +3,4 @@
     plots/
     logs/
     drift_report.txt
+score = 0.45*BCI + 0.20*multiomics + 0.20*integration + 0.10*agents + 0.05*LLMvariance
