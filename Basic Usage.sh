@@ -1,0 +1,1 @@
+python pdpbiogen.py protein.fasta
