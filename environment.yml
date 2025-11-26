@@ -17,6 +17,9 @@ dependencies:
   - requests=2.31
   - openai=1.8
   - cryptography
+  - cobra
+- python-libsbml (optional, COBRApy can read SBML with libsbml)
+
   - pip:
       - pyOpenSSL
       # If you want torch, uncomment the torch pip install line below and adjust for CPU/GPU
