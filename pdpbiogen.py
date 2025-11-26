@@ -78,6 +78,80 @@ def get_expanded_colors():
         '#3182bd', '#e6550d', '#31a354', '#756bb1', '#636363', '#bd9e39',
         '#6baed6', '#fd8d3c', '#74c476', '#9e9ac8', '#969696', '#d9d9d9'
     ]
+
+unique_domains = domains_df['domain_name'].unique()
+color_mapping = {}
+expanded_palette = get_expanded_colors()
+for i, domain in enumerate(unique_domains):
+    color_mapping[domain] = expanded_palette[i % len(expanded_palette)]
+    def export_static_plots(fig, base_name, width=1000, height=400):
+    """
+    Export plot to static formats for publications
+    Requires: pip install kaleido
+    """
+    try:
+        import plotly.io as pio
+        
+        formats = {
+            'png': {'format': 'png', 'scale': 2},
+            'pdf': {'format': 'pdf'},
+            'svg': {'format': 'svg'}
+        }
+        
+        for fmt, params in formats.items():
+            filename = f"{base_name}.{fmt}"
+            pio.write_image(fig, filename, width=width, height=height, **params)
+            print(f"✓ Static plot saved: {filename}")
+            
+    except ImportError:
+        print("✗ Install kaleido for static exports: pip install kaleido")
+    except Exception as e:
+        print(f"✗ Error exporting {fmt}: {e}")
+        def filter_domains(domains_df, min_length=0, group_repeats=True):
+    """
+    Filter and group domains for better visualization
+    """
+    filtered_df = domains_df.copy()
+    
+    # Filter by minimum length
+    if min_length > 0:
+        initial_count = len(filtered_df)
+        filtered_df = filtered_df[
+            (filtered_df['end'] - filtered_df['start']) >= min_length
+        ]
+        print(f"Filtered out {initial_count - len(filtered_df)} domains shorter than {min_length}aa")
+    
+    # Group identical consecutive domains
+    if group_repeats and len(filtered_df) > 1:
+        filtered_df = filtered_df.sort_values('start').reset_index(drop=True)
+        grouped = []
+        i = 0
+        
+        while i < len(filtered_df):
+            current = filtered_df.iloc[i]
+            count = 1
+            
+            # Find consecutive identical domains
+            while (i + count < len(filtered_df) and
+                   filtered_df.iloc[i + count]['domain_name'] == current['domain_name'] and  
+                   (filtered_df.iloc[i + count]['start'] - filtered_df.iloc[i + count - 1]['end']) < 50):
+                count += 1
+            
+            if count > 1:
+                # Merge consecutive domains
+                merged = current.copy()
+                merged['end'] = filtered_df.iloc[i + count - 1]['end']
+                merged['domain_name'] = f"{current['domain_name']} (x{count})"
+                grouped.append(merged)
+                print(f"Grouped {count} consecutive {current['domain_name']} domains")
+            else:
+                grouped.append(current)
+            
+            i += count
+        
+        filtered_df = pd.DataFrame(grouped)
+    
+    return filtered_df
     """Create Graphviz diagram from configuration data."""
     try:
         # Validate configuration
