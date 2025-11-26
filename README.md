@@ -277,3 +277,5 @@ process NEURO_SYMMETRY {
         --out symmetry.json
     """
 }
+
+🎉 End of README
