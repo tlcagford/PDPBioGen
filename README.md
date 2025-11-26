@@ -246,8 +246,6 @@ PDPBioGen has been rigorously validated against real biomedical datasets:
 - **Treatment Effect Detection**: p < 0.01 significance
 - **Multi-Scale Correlation**: r = 0.71 with biological outcomes
 
-### Published Research
-- Ford, T.E. "Quantum Biological Approaches to Tissue Regeneration" *(In Review)*
 - Validation datasets available in `/validation/` directory
 - Complete statistical analysis in `pdpbiogen_retest_report.json`
 
