@@ -1,30 +1,26 @@
-bci_datasets:
-  - id: physionet_eegmmidb
-    name: "PhysioNet EEG Motor Movement/Imagery (EEGMMIDB)"
-    source: "https://physionet.org/content/eegmmidb/1.0.0/"
-    license: "Open Data Commons Attribution"
-    recommended_use: "Primary BCI classification and preprocessing tests (64-ch, 109 subjects)."
+omics_datasets:
+  - id: gtex_expression
+    name: "GTEx (gene expression matrices - open access)"
+    source: "https://gtexportal.org/home/datasets"
+    license: "GTEx open-access subset"
+    recommended_use: "Transcriptomic baseline / tissue-specific expression reference"
     download:
-      method: "wget"
-      url: "https://archive.physionet.org/pn4/eegmmidb/" 
-    smoke_sample: "benchmarks/bci/sample_data/eegmmidb_subject1.edf"
+      method: "gtex_portal"
+      note: "Use 'open access' files or sample subsets for CI smoke tests."
+    smoke_sample: "benchmarks/omics/sample_data/gtex_sample_counts.tsv"
 
-  - id: bbci_comp3a
-    name: "BCI Competition III - Dataset IIIa"
-    source: "https://bbci.de/competition/iii/download/"
-    license: "Competition dataset (public download)"
-    recommended_use: "Cross-subject generalization tests; offline motor imagery paradigms."
+  - id: tcga_rnaseq
+    name: "TCGA (RNA-Seq via GDC)"
+    source: "https://portal.gdc.cancer.gov/"
+    license: "Controlled access for raw; open for processed"
+    recommended_use: "Large-scale differential expression / cross-cohort checks (use processed matrices)"
     download:
-      method: "direct"
-      urls:
-        - "https://bbci.de/competition/iii/download/gdf_subject1.gdf"
-    smoke_sample: "benchmarks/bci/sample_data/bcicomp3a_subj1.gdf"
+      method: "gdc-client + manifest"
+      note: "Use processed expression matrices for public reproducibility."
 
-  - id: bnci_collection
-    name: "BNCI Horizon 2020 collection (subset)"
-    source: "https://bnci-horizon-2020.eu/database/data-sets"
-    license: "Open access"
-    recommended_use: "Diversity tests across acquisition setups and devices."
-    download:
-      method: "manual_or_scripted"
-      note: "Use dataset IDs listed on BNCI site; prefer small/low-channel sets for CI."
+  - id: geo_pd_rnaseq
+    name: "Selected GEO - Parkinson/PBMC RNA-seq (example)"
+    source: "https://www.ncbi.nlm.nih.gov/geo/"
+    accession: "GSE174473 (example PD PBMC RNA-seq)"
+    recommended_use: "Disease-specific integration tests"
+    smoke_sample: "benchmarks/omics/sample_data/geo_gse174473_counts.tsv"
