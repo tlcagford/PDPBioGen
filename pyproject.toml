@@ -1,13 +1,22 @@
 [project]
 name = "pdpbiogen"
-version = "0.0.1"
+version = "0.5.1"
 description = "Parallel Distributed Processing for Bio-Genomic Signal Integration"
+
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
 
 authors = [
     { name="T. Ford", email="tony.e.ford@protonmail.com" }
+]
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-rerunfailures",
+    "pytest-cov",
+    "flake8",
+    "black",
 ]
 
 keywords = ["PDP", "bio", "neuro", "healing", "signal-processing"]
