@@ -1,0 +1,6 @@
+def test_import_core():
+    # smoke test to ensure package imports and a fundamental function exists
+    import importlib
+    mod = importlib.import_module("pdpbiogen")  # adapt to actual package name
+    assert hasattr(mod, "ResearchFramework") or hasattr(mod, "main"), \
+        "package should expose ResearchFramework or main entrypoint"
