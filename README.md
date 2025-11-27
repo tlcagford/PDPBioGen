@@ -2,6 +2,7 @@
 
 **Multi-Scale Quantum Biological Integration Framework for Tissue Regeneration Research**
 
+
 ![Research Framework](https://img.shields.io/badge/Status-Research_Framework-blue)
 ![Data-Simulation](https://img.shields.io/badge/Data-Simulation_%26_Public_Anomalies-orange)
 ![Validation-Pending](https://img.shields.io/badge/Validation-Pre--Clinical_Needed-yellow)
@@ -233,6 +234,34 @@ We seek collaborators for:
 - Independent analysis of our theoretical framework
 
 ## 📄 License & Ethics
+## 📜 Licensing Model (Dual License)
+
+PDPBioGen is released under a Dual-License system:
+
+### 🔓 Open Academic & Personal License (OAPL)
+Free for:
+- Academic research  
+- Personal exploration  
+- Public/open scientific work  
+
+Not allowed:
+- Commercial use  
+- Clinical or diagnostic deployment  
+
+See: `LICENSES/OAPL.txt`
+
+### 💼 Commercial License
+Required for:
+- Any for-profit, enterprise, corporate, or closed-source use  
+- Internal commercial tooling  
+- SaaS integration  
+- Paid products or services  
+
+To obtain a commercial license:
+📧 Email: tlcagford@gmail.com  
+👤 Tony E. Ford — Independent Researcher (Astrophysics & Quantum Systems)
+
+See: `LICENSES/COMMERCIAL_LICENSE.txt`
 
 **Research License Only** - Not approved for human use. All applications require appropriate ethical review and regulatory approvals.
 
