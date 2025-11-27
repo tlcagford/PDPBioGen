@@ -1,0 +1,21 @@
+PDPBioGen/
+│
+├── pdpbiogen/               # core modules
+│   ├── neuro/
+│   ├── quantum/
+│   ├── metabolic/
+│   └── ...
+│
+├── tests/
+│   ├── test_smoke.py
+│   ├── test_neuro.py
+│   ├── test_quantum.py
+│   ├── test_metabolic.py
+│   ├── test_integration_pipeline.py
+│   └── data/                # small test datasets
+│
+├── pytest.ini
+├── conftest.py
+├── LICENSE
+├── LICENSES/
+└── README.md
