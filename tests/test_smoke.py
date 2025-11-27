@@ -4,3 +4,8 @@ def test_import_core():
     mod = importlib.import_module("pdpbiogen")  # adapt to actual package name
     assert hasattr(mod, "ResearchFramework") or hasattr(mod, "main"), \
         "package should expose ResearchFramework or main entrypoint"
+import importlib
+
+def test_import_core():
+    mod = importlib.import_module("pdpbiogen")
+    assert hasattr(mod, "__version__")
