@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PDPBioGen: Pathway-Driven Prioritization of Biological Genes"
+authors:
+  - given-names: Tony Eugene
+    family-names: Ford
+    email: tlcagford@gmail.com
+version: 1.0.0
+doi: 10.5281/zenodo.1000000
+date-released: 2025-11-28
+url: "https://github.com/tlcagford/PDPBioGen"
