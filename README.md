@@ -1,4 +1,5 @@
-BIORXIV/2025/691137 
+BIORXIV/2025/691137   
+v0.5.2 Latest 
 # PDPBioGen: (Pathway-Disease-Phenotype Biogen)
 **Multi-Scale Quantum Biological Integration Framework for Tissue Regeneration Research**
 
