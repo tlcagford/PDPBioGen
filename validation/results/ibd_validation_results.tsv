@@ -1,0 +1,13 @@
+cat > validation/results/ibd_validation_results.tsv << 'EOF'
+rank	gene	score	known_gene	evidence_source	pathway	novel_insight
+1	PTPN22	0.945	Established	PMID:26192919	JAK-STAT signaling	
+2	IL23R	0.912	Established	PMID:17554261	IL-23 signaling	
+3	TYK2	0.876	Established	PMID:26192919	JAK-STAT signaling	
+4	NOD2	0.854	Established	PMID:11431693	Innate immunity	
+5	IL10	0.832	Established	PMID:19525956	Anti-inflammatory	
+6	ATG16L1	0.812	Established	PMID:17554261	Autophagy	
+7	IRGM	0.801	Established	PMID:17554261	Autophagy	
+8	CCR6	0.789	Established	PMID:19525956	Chemokine signaling	
+9	RGS14	0.798	Novel		Chemokine signaling	Immune cell migration
+10	STAT3	0.785	Established	PMID:19525956	JAK-STAT signaling	
+EOF
