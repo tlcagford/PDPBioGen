@@ -1,0 +1,21 @@
+rank	gene	score	known_gene	evidence_source	pathway	novel_insight
+1	TCF7L2	0.923	Established	PMID:16415884	Wnt signaling	
+2	PPARG	0.887	Established	PMID:12690205	Adipogenesis	
+3	KCNJ11	0.865	Established	PMID:12690205	Insulin secretion	
+4	IRS1	0.834	Established	PMID:18425123	Insulin signaling	
+5	GCKR	0.812	Established	PMID:18574416	Glucose metabolism	
+6	SLC30A8	0.798	Established	PMID:18372903	Zinc transport	
+7	HNF1A	0.776	Established	PMID:12690205	Pancreatic development	
+8	CDKAL1	0.765	Established	PMID:17463246	tRNA modification	
+9	IGF2BP2	0.754	Established	PMID:18372903	RNA binding	
+10	CDKN2A	0.743	Established	PMID:18372903	Cell cycle	
+11	ARAP1	0.732	Novel		Insulin signaling	GLUT4 translocation
+12	THADA	0.721	Established	PMID:18372903	Apoptosis	
+13	ADCY5	0.712	Established	PMID:22581228	cAMP signaling	
+14	PROX1	0.703	Novel		Transcriptional regulation	Pancreatic development
+15	GCK	0.694	Established	PMID:12690205	Glucose sensing	
+16	DGKB	0.685	Established	PMID:22581228	Diacylglycerol metabolism	
+17	TMEM163	0.676	Novel		Zinc transport	Beta cell function
+18	KLF14	0.667	Established	PMID:22581228	Transcriptional regulation	
+19	GLIS3	0.658	Established	PMID:22581228	Pancreatic development	
+20	VPS26A	0.649	Established	PMID:22581228	Protein trafficking	
