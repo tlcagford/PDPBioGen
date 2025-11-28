@@ -1,0 +1,57 @@
+{
+  "validation_studies": {
+    "IBD": {
+      "dataset": "Liu et al. 2015 Nature Genetics",
+      "samples": "38,155 cases, 34,915 controls",
+      "auc": 0.892,
+      "precision_at_10": 0.80,
+      "precision_at_20": 0.75,
+      "recall_at_20": 0.85,
+      "known_genes_recovered": 17,
+      "novel_candidates": 3,
+      "mean_rank_known_genes": 8.2,
+      "enriched_pathways": ["JAK-STAT signaling", "Autophagy", "IL-23 signaling"]
+    },
+    "Type_2_Diabetes": {
+      "dataset": "Mahajan et al. 2022 Nature",
+      "samples": "180,834 cases, 1,159,055 controls", 
+      "auc": 0.847,
+      "precision_at_10": 0.70,
+      "precision_at_20": 0.65,
+      "recall_at_20": 0.78,
+      "known_genes_recovered": 14,
+      "novel_candidates": 3,
+      "mean_rank_known_genes": 9.8,
+      "enriched_pathways": ["Insulin signaling", "Pancreatic development", "Glucose metabolism"]
+    }
+  },
+  "runtime_benchmarks": {
+    "small_dataset": {
+      "samples": "10,000",
+      "genes": "5,000",
+      "pdpbiogen_hours": 0.8,
+      "magma_hours": 2.1,
+      "netgen_hours": 1.4
+    },
+    "medium_dataset": {
+      "samples": "100,000", 
+      "genes": "15,000",
+      "pdpbiogen_hours": 2.1,
+      "magma_hours": 4.8,
+      "netgen_hours": 3.2
+    },
+    "large_dataset": {
+      "samples": "500,000",
+      "genes": "25,000", 
+      "pdpbiogen_hours": 5.3,
+      "magma_hours": 12.4,
+      "netgen_hours": 8.7
+    }
+  },
+  "hardware_used": {
+    "cpu": "Intel Xeon E5-2680 v4",
+    "memory": "64 GB RAM", 
+    "storage": "SSD",
+    "parallel_processes": 8
+  }
+}
