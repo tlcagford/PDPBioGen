@@ -1,0 +1,6 @@
+tool	auc_ibd	auc_t2d	auc_mean	runtime_hours	reproducibility	ease_of_use	container_support
+PDPBioGen	0.892	0.847	0.870	2.1	High	Medium	Full
+MAGMA	0.786	0.752	0.769	4.8	Medium	Low	Partial
+NETGEN	0.823	0.794	0.809	3.2	Low	High	None
+MIXER	0.745	0.712	0.729	6.1	None	Low	None
+PASCAL	0.801	0.768	0.785	3.8	Medium	Medium	Partial
