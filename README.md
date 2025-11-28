@@ -1,3 +1,4 @@
+BIORXIV/2025/691137 
 # PDPBioGen: Parallel Distributed Processing Biological Generation
 
 **Multi-Scale Quantum Biological Integration Framework for Tissue Regeneration Research**
