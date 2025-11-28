@@ -3,7 +3,6 @@ v0.5.2 Latest
 # PDPBioGen: (Pathway-Disease-Phenotype Biogen)
 **Multi-Scale Quantum Biological Integration Framework for Tissue Regeneration Research**
 
-![Tests](https://github.com/tlcagford/PDPBioGen/actions/workflows/ci.yml/badge.svg)
 ![Research Framework](https://img.shields.io/badge/Status-Research_Framework-blue)
 ![Data-Simulation](https://img.shields.io/badge/Data-Simulation_%26_Public_Anomalies-orange)
 ![Validation-Pending](https://img.shields.io/badge/Validation-Pre--Clinical_Needed-yellow)
