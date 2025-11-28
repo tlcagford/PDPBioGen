@@ -1,5 +1,3 @@
-   
-v0.5.2 Latest 
 # PDPBioGen: (Pathway-Disease-Phenotype Biogen)
 **Multi-Scale Quantum Biological Integration Framework for Tissue Regeneration Research**
 
@@ -13,16 +11,14 @@ We're moving beyond generic medicine. This isn't just data analysis; it's genera
 
 🚀 Core Capability:
 Our platform ingests your multi-omic data (DNA, RNA, epigenetics) to build a Personalized Stable State (PSS) model—a computational snapshot of your "disease state." We then simulate interventions to find the optimal path back to health.
-## Quickstart (reproducible)
-> Research use only. Not for clinical or diagnostic use.
+
+## 🚀 Quick Start
 
 ```bash
+# Clone and run with example data
 git clone https://github.com/tlcagford/PDPBioGen
 cd PDPBioGen
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pytest -q
+nextflow run pdpbiogen.nf --gwas_sumstats examples/ibd_gwas.tsv
 ## 📊 Validation Results
 
 PDPBioGen was validated on inflammatory bowel disease (IBD) GWAS data:
