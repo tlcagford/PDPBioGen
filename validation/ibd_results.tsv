@@ -1,0 +1,11 @@
+Rank	Gene	Score	Known_Gene	Evidence	Novel_Function
+1	PTPN22	0.945	Established	PMID:26192919	
+2	IL23R	0.912	Established	PMID:17554261	
+3	TYK2	0.876	Established	PMID:26192919	
+4	NOD2	0.854	Established	PMID:11431693	
+5	IL10	0.832	Established	PMID:19525956	
+6	ATG16L1	0.812	Established	PMID:17554261	
+7	IRGM	0.801	Established	PMID:17554261	
+8	CCR6	0.789	Established	PMID:19525956	
+9	RGS14	0.798	Novel		Immune cell migration
+10	STAT3	0.785	Established	PMID:19525956	
