@@ -1,3 +1,6 @@
+I WILL BEING CONSOLIDATING AND CREATING A NEW CLEAN SINGLE WORKING LIVE FILE: SORRY FOR THE MESS. GIVE ME A FEW WEEKS. TFORD
+
+
 # PDPBioGen: (Pathway-Disease-Phenotype Biogen)
 **Multi-Scale Quantum Biological Integration Framework for Tissue Regeneration Research**
 
