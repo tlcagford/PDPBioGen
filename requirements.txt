@@ -19,5 +19,8 @@ networkx==3.2
 pytest==7.4.2
 pytest-rerunfailures==10.3  # optional, only if you want retry
 flake8==6.1.0
+pytest
+numpy
+scipy
 
 # add domain-specific entries (torch, tensorflow, etc) only if used and pinned
